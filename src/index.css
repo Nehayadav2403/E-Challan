@@ -1,0 +1,3144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.image-home {
+  position: relative;
+  left: 3rem;
+  top: 7rem;
+}
+.home-text {
+  position: absolute;
+  top: 7rem;
+  left: 5rem;
+  font-size: 45px;
+  font-family: "RobotoNormal, sans-serif";
+}
+.checkbox-text {
+  position: absolute;
+  left: 8rem;
+  top: 15rem;
+  font-size: 25px;
+  font-family: "RobotoNormal, sans-serif";
+}
+.easily-pay {
+  position: absolute;
+  top: 18rem;
+  left: 8rem;
+  font-family: RobotoNormal, sans-serif;
+  font-size: 24px;
+}
+.avoid-court {
+  position: absolute;
+  left: 8rem;
+  top: 21rem;
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 25px;
+}
+
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: -28rem;
+  width: 100%;
+  background: #fff;
+  /* padding-left: 60rem; */
+}
+.view-challan-button {
+  line-height: 24px;
+  font-family: "RobotoMedium, sans-serif";
+  color: white;
+  background: darkorchid;
+  font-size: 24px;
+  margin-top: 1rem;
+  width: 18rem;
+  border-radius: 20px;
+  height: 3rem;
+  margin-left: 28rem;
+}
+.enter-vehicle-text {
+  font-size: 35px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  position: relative;
+  top: 7rem;
+  width: 75rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  width: 352px;
+  height: 68px;
+  background: #eaeaea;
+  border-radius: 20px;
+  margin-top: 9rem;
+  margin-left: 26rem;
+}
+.check-text {
+  font-size: 30px !important;
+  line-height: 36px !important;
+  font-family: "RobotoNormal, sans-serif" !important;
+  position: relative !important;
+  right: 27rem !important;
+  top: 17rem !important;
+}
+.h2-heading-paragraph-text {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+}
+.e-challan {
+  position: relative;
+  right: 30rem;
+  top: 17rem;
+  font-family: "RobotoBold, sans-serif";
+  font-size: 30px;
+}
+.e-challan-paragraph-text {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+}
+.read-more-button {
+  margin-top: 270px;
+  padding: 10px 20px;
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 24rem;
+}
+.check-e-challan {
+  position: relative;
+  right: 24rem;
+  top: 17rem;
+  font-family: "RobotoBold, sans-serif";
+  font-size: 30px;
+}
+.check-your-challan {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  left: 3rem;
+  top: 17rem;
+}
+.pay-e-challan {
+  position: relative;
+  right: 26rem;
+  top: 17rem;
+  font-family: RobotoBold, sans-serif;
+  font-size: 30px;
+}
+.paragarph-pay-online {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+}
+.e-challan-question {
+  position: relative;
+  right: 23rem;
+  top: 16rem;
+  font-family: RobotoBold, sans-serif;
+  font-size: 30px;
+}
+.paragraph-e-challan-question {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  left: 3rem;
+  top: 16rem;
+}
+.penalties-and-fines {
+  position: relative;
+  right: 30rem;
+  top: 15rem;
+  font-family: RobotoBold, sans-serif;
+  font-size: 30px;
+}
+.paragraph-penalties-and-fines {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  top: 15rem;
+  left: 2rem;
+}
+.advantage-challan-payment {
+  position: relative;
+  right: 22rem;
+  top: 14rem;
+  font-family: RobotoBold, sans-serif;
+  font-size: 30px;
+}
+.paragraph-advantage-e-challan {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  right: -1rem;
+  top: 14rem;
+}
+.conclusion {
+  position: relative;
+  right: 34rem;
+  top: 14rem;
+  font-family: RobotoBold, sans-serif;
+  font-size: 30px;
+}
+.paragraph-conclusion {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  position: relative;
+  left: 3rem;
+  top: 14rem;
+}
+
+.read-more-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.content-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.content-section h2 {
+  margin-bottom: 1rem;
+}
+.violations-and-penalties {
+  margin-top: 2rem;
+  font-size: 36px;
+  line-height: 32px;
+  font-family: " RobotoBold, sans-serif";
+  position: relative;
+  right: 18rem;
+}
+.paragraph-traffic-violations {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 21px;
+  line-height: 28.8px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.offences-document {
+  line-height: 24px;
+  font-family: RobotoMedium, sans-serif;
+  margin-top: 2rem;
+  margin-right: 57rem;
+  font-weight: bold;
+}
+.offences-table {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  width: 1276px;
+  /* height: 600px; */
+}
+.offense-related {
+  line-height: 24px;
+  font-family: "RobotoMedium, sans-serif";
+  margin-top: 2rem;
+  margin-right: 68rem;
+  font-weight: bold;
+}
+.offense-related-table {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  width: 1276px;
+}
+.view-more-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 60rem;
+}
+.check-challan {
+  font-size: 30px;
+  line-height: 20px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: 1rem;
+  margin-top: -16rem;
+}
+.first-col-6 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem !important;
+  width: 617px !important;
+  background: #e1e8ed;
+  margin-left: 20rem !important;
+  border-radius: 20px;
+  height: 47rem;
+}
+.step-for-check-challan {
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "RobotoBold, sans-serif";
+  margin-top: 3rem;
+}
+.paragraph-visit-app {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 15rem;
+  margin-top: 1rem;
+}
+.click-challan {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 24rem;
+  margin-top: 0rem;
+}
+.enter-vehicle-number {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 6rem;
+  margin-top: 0rem;
+}
+.find-update-button {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 0rem;
+  margin-top: 0rem;
+}
+.get-e-challan-status {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 7rem;
+  margin-top: 0rem;
+}
+.first-box-image {
+  margin-left: -14rem;
+}
+.second-col-6 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem !important; 
+  width: 650px !important;
+  background: #e1e8ed;
+  margin-right: -29rem !important;
+  border-radius: 20px;
+}
+.parivahan-website {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "RobotoBold, sans-serif";
+  margin-top: 3rem;
+  margin-left: -2rem;
+}
+.visit-parivahan-website {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 1rem;
+}
+.click-get-challan-details {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 4rem;
+  margin-top: 0rem;
+}
+.enter-details-captcha {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 7rem;
+  margin-top: 0rem;
+}
+.select-the-e-challan {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 8rem;
+  margin-top: 0rem;
+  /* width: 100%; */
+}
+.proceed-the-payment {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 1rem;
+  margin-top: 0rem;
+}
+.studio-display-image {
+  margin-right: 3rem;
+}
+.how-can-pay-challan {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "RobotoBold, sans-serif";
+  position: relative;
+  top: 9rem;
+  right: 30rem;
+}
+.paragraph-pay-online-offline {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-top: 10rem;
+  margin-left: 3rem;
+}
+div#rc-tabs-1-tab-1 {
+  width: 22rem;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "RobotoBold, sans-serif";
+  color: black;
+}
+div#rc-tabs-1-tab-2 {
+  width: 22rem;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "RobotoBold, sans-serif";
+  color: black;
+}
+div#rc-tabs-1-tab-3 {
+  width: 22rem;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "RobotoBold, sans-serif";
+  color: black;
+}
+
+.open-challanDekho-image {
+  position: relative;
+  right: 46rem;
+  top: 1rem;
+  width: 5rem;
+}
+.ant-tabs-nav {
+  margin-left: -22rem !important;
+  width: 84rem !important;
+}
+.ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
+  margin-left: 25rem !important;
+}
+.ant-tabs-nav-operations {
+  gap: 200px;
+  margin-left: -20rem !important;
+}
+.open-challan-dekho {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -61rem;
+  font-weight: bold;
+  margin-top: -4rem;
+}
+.paragraph-challan-dekho {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  /* display: contents; */
+  margin-top: 1rem;
+  margin-left: -57rem;
+}
+.vehicle-number-image {
+  position: relative;
+  right: 46rem;
+  top: 4rem;
+  width: 8rem;
+}
+.vehicle-number {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -13rem;
+  font-weight: bold;
+  width: 22rem;
+}
+.paragraph-vehicle-number {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -50rem;
+  margin-top: 1rem;
+}
+.check-challan-status-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.e-challan-status {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  font-weight: bold;
+  position: relative;
+  left: -30rem;
+}
+.paragraph-challan-status {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -55rem;
+  margin-top: 1rem;
+}
+.pending-challan-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.pending-challan {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -58rem;
+  font-weight: bold;
+  /* width: 13rem; */
+}
+.paragraph-pending-challan {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -58rem;
+  margin-top: 1rem;
+}
+.recieve-confirmation-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.recieve-confirmation {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -48rem;
+  font-weight: bold;
+  /* width: 43rem; */
+}
+/* .h2-heading-pay-challan {
+  margin-left: 25rem;
+} */
+.paragraph-recieve-confirmation {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-top: 2rem;
+  margin-left: -29rem;
+}
+.visit-parivahan-image {
+  position: relative;
+  right: 46rem;
+  top: 1rem;
+  width: 5rem;
+}
+.visit-parivahan {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 28rem;
+  margin-top: -2rem;
+}
+.paragraph-visit-parivahan {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -55rem;
+  margin-top: 1rem;
+}
+.get-challan-details-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.get-challan-details {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 29rem;
+}
+.paragraph-get-challan-details {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -42rem;
+  margin-top: 1rem;
+}
+.details-captcha-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 4rem;
+}
+.details-captcha {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 27rem;
+}
+.paragraph-details-captcha {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -63rem;
+  margin-top: 1rem;
+}
+.select-e-challan-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.select-e-challan {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 21rem;
+}
+.paragraph-select-e-challan {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -62rem;
+  margin-top: 1rem;
+}
+.proceed-payment-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.proceed-payment {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -15rem;
+  font-weight: bold;
+  width: 27rem;
+}
+.paragraph-proceed-payment {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -45rem;
+  margin-top: 1rem;
+}
+.visit-traffic-police-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.visit-traffic-police {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 26rem;
+}
+.paragraph-visit-traffic-police {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -62rem;
+  margin-top: 1rem;
+}
+.valid-documents-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 4rem;
+}
+.valid-documents {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -14rem;
+  font-weight: bold;
+  width: 23rem;
+}
+.paragraph-valid-documents {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -36rem;
+  margin-top: 1rem;
+}
+.pay-fine-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.pay-fine {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -13rem;
+  font-weight: bold;
+  width: 9rem;
+}
+.paragraph-pay-fine {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -76rem;
+  margin-top: 1rem;
+}
+.get-a-receipt-image {
+  position: relative;
+  right: 46rem;
+  top: 5rem;
+  width: 5rem;
+}
+.get-a-receipt {
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: -13rem;
+  font-weight: bold;
+  width: 13rem;
+}
+.paragraph-get-a-receipt {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -70rem;
+  margin-top: 1rem;
+}
+
+.nav-item {
+  position: relative;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 20px;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-family: "RobotoNormal, sans-serif";
+  margin: 20px 20px;
+}
+div#navbarSupportedContent {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo-image {
+  width: 14rem;
+}
+.accordion {
+  padding: 80px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ .FAQ_bg_image__mfTNP {
+  position: absolute;
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+/* .navbar-container {
+  max-width: 100%;
+} */
+.footer-park-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+  background: darkorchid;
+  height: 10rem;
+  padding-right: 56rem;
+  color: white;
+  padding-top: 1rem;
+}
+.footer-terms-condition {
+  font-size: 21px;
+  line-height: 24px;
+  margin-top: -6rem;
+  margin-left: 63rem;
+  color: white;
+}
+
+/* Mobile (large phones) */
+@media (max-width: 480px) {
+  /* Styles for large phones */
+  .navbar-container {
+    max-width: 100%;
+  }
+  .home-text {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    font-size: 28px;
+    font-family: "RobotoNormal, sans-serif";
+  }
+  .image-home {
+    position: relative;
+    left: 7rem;
+    top: 8rem;
+    width: 100%;
+  }
+  .checkbox-text {
+    position: absolute;
+    left: 4rem;
+    top: 8rem;
+    font-size: 14px;
+    font-family: "RobotoNormal, sans-serif";
+  }
+  .easily-pay {
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    font-family: RobotoNormal, sans-serif;
+    font-size: 14px;
+  }
+  .avoid-court {
+    position: absolute;
+    left: 4rem;
+    top: 12rem;
+    font-family: "RobotoNormal, sans-serif";
+    font-size: 14px;
+  }
+  .enter-vehicle-text {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "RobotoBold, sans-serif";
+    position: relative;
+    top: 31rem;
+    width: 20rem;
+    right: 62rem;
+  }
+  .view-challan-button {
+    line-height: 24px;
+    font-family: "RobotoMedium, sans-serif";
+    color: white;
+    background: darkorchid;
+    font-size: 24px;
+    width: 10rem;
+    border-radius: 20px;
+    height: 3rem;
+    position: relative;
+    right: 56rem;
+    top: -2rem;
+  }
+  .input {
+    display: flex !important;
+    align-items: center !important;
+    width: 212px !important;
+    height: 46px !important;
+    background: #eaeaea !important;
+    border-radius: 20px !important;
+    margin-top: 32rem !important;
+    position: relative;
+    right: 58rem;
+  }
+  .check-text {
+    font-size: 26px !important;
+    line-height: 36px !important;
+    font-family: "RobotoNormal, sans-serif" !important;
+    position: relative !important;
+    right: 2rem !important;
+    top: 1rem !important;
+  }
+  .h2-heading-paragraph-text {
+    font-family: "RobotoNormal, sans-serif" !important;
+    font-size: 15px !important;
+    line-height: 22.8px !important;
+    position: relative !important;
+
+    top: 1rem !important;
+  }
+  .e-challan {
+    position: relative !important;
+    right: 5rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .e-challan-paragraph-text {
+    font-family: "RobotoNormal, sans-serif" !important;
+    font-size: 15px !important;
+    line-height: 23.8px !important;
+    position: relative !important;
+
+    top: 1rem !important;
+  }
+  .read-more-button {
+    padding: 10px 20px;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: -6rem;
+    right: 59rem;
+    width: 8rem;
+  }
+  .check-e-challan {
+    display: contents;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .check-your-challan {
+    font-family: "RobotoNormal, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    display: contents;
+  }
+  .pay-e-challan {
+    position: relative !important;
+    right: 2rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .paragarph-pay-online {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+  .e-challan-question {
+    position: relative !important;
+    right: 0rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .paragraph-e-challan-question {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+  }
+  .penalties-and-fines {
+    position: relative !important;
+    right: 6rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .paragraph-penalties-and-fines {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+  }
+  /* .advantage-challan-payment {
+    position: relative !important;
+    right: -1rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  } */
+  .paragraph-advantage-e-challan {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    position: relative;
+    right: -2rem;
+    top: 1rem;
+  }
+  .conclusion {
+    position: relative !important;
+    right: 8rem !important;
+    top: 1rem !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 26px !important;
+  }
+  .paragraph-conclusion {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 23.8px;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+  }
+  .violations-and-penalties {
+    margin-top: -3rem !important;
+    font-size: 26px !important;
+    line-height: 32px !important;
+    font-family: " RobotoBold, sans-serif" !important;
+    position: relative !important;
+    right: 0rem !important;
+  }
+  .paragraph-traffic-violations {
+    font-family: "RobotoNormal, sans-serif";
+    font-size: 17px;
+    line-height: 23.8px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .offences-document {
+    line-height: 26px !important;
+    font-family: "RobotoMedium, sans-serif" !important;
+    margin-top: 1rem !important;
+    margin-right: 6rem !important;
+    font-weight: bold !important;
+  }
+  .offences-table {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    margin-top: 1rem !important;
+  }
+  .offense-related {
+    line-height: 24px !important;
+    font-family: "RobotoMedium, sans-serif" !important;
+    margin-top: 3rem !important;
+    margin-right: 17rem !important;
+    font-weight: bold !important;
+  }
+  .offense-related-table {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    width: 30rem;
+  }
+  .view-more-button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 18rem;
+  }
+  .check-challan {
+    font-size: 26px !important;
+    line-height: 36px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-right: 8rem;
+  }
+  .first-col-6 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    margin-top: 2rem !important;
+    width: 800px !important;
+    height: 850px !important;
+    background: #e1e8ed !important;
+    margin-left: -1rem !important;
+    border-radius: 20px !important;
+  }
+  .step-for-check-challan {
+    font-size: 22px !important;
+    line-height: 24px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-top: 3rem !important;
+    margin-right: 2rem !important;
+  }
+  .paragraph-visit-app {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 11rem;
+    margin-top: 1rem;
+  }
+  .click-challan {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 16rem;
+    margin-top: 0rem;
+  }
+  .enter-vehicle-number {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 0.7rem;
+    margin-top: 0rem;
+  }
+  .find-update-button {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: -2rem;
+    margin-top: 0rem;
+  }
+  .get-e-challan-status {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 2rem;
+    margin-top: 0rem;
+  }
+  .first-box-image {
+    display: contents;
+  }
+  .second-col-6 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    margin-top: 2rem !important;
+    width: 850px !important;
+    height: 811px !important;
+    background: #e1e8ed !important;
+    margin-left: -1rem !important;
+    border-radius: 20px !important;
+  }
+  .parivahan-website {
+    font-size: 23px !important;
+    line-height: 24px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-top: 3rem !important;
+    margin-right: 0rem !important;
+  }
+  .visit-parivahan-website {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 0rem;
+    margin-top: 1rem;
+  }
+  .click-get-challan-details {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: contents;
+    margin-top: 0rem;
+  }
+  .enter-details-captcha {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 0rem;
+    margin-top: 0rem;
+  }
+  .select-the-e-challan {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 0rem;
+    display: contents;
+  }
+  .proceed-the-payment {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 1rem;
+    margin-top: 1rem;
+  }
+  .studio-display-image {
+    display: contents;
+  }
+  .how-can-pay-challan {
+    font-size: 26px !important;
+    line-height: 36px !important;
+    font-family: " RobotoBold, sans-serif" !important;
+    position: relative !important;
+    top: -5rem !important;
+    right: 5rem !important;
+  }
+  .paragraph-pay-online-offline {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-top: -4rem;
+    margin-left: 1rem;
+  }
+  div#rc-tabs-1-tab-1 {
+    width: 9rem !important;
+    font-size: 17px !important;
+    line-height: 2px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    color: black !important;
+    margin-left: 9rem;
+  }
+  div#rc-tabs-1-tab-2 {
+    width: 10rem !important;
+    font-size: 17px !important;
+    line-height: 24px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    color: black !important;
+    margin-left: -1rem;
+  }
+  div#rc-tabs-1-tab-3 {
+    width: 9rem !important;
+    font-size: 17px !important;
+    line-height: 24px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    color: black !important;
+  }
+  .open-challanDekho-image {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    width: 3rem;
+  }
+  .open-challan-dekho{
+    font-size: 18px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 2rem !important;
+    font-weight: bold !important;
+    width: 17rem !important;
+    margin-top: -3rem;
+  }
+  .paragraph-open-challan-dekho {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: -3rem;
+    margin-top: 0rem;
+  }
+  .vehicle-number-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 4rem;
+  }
+  .vehicle-number {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 1rem !important;
+    font-weight: bold !important;
+    /* width: 22rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-vehicle-number {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    width:100%;
+    margin-top: 0rem;
+  }
+  .check-challan-status-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .e-challan-status {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: -1rem !important;
+    font-weight: bold !important;
+    /* width: 28rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-challan-status {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .pending-challan-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .pending-challan {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    display: contents;
+    font-weight: bold !important;
+    margin-top: -1rem;
+  }
+  .paragraph-challan-dekho {
+    font-size: 22px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    /* margin-right: 45rem; */
+    margin-top: 3rem;
+}
+  .paragraph-pending-challan {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    display: contents;
+    margin-top: 0rem;
+  }
+  .recieve-confirmation-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .recieve-confirmation {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    display: contents;
+    font-weight: bold !important;
+    margin-top: -1rem;
+  }
+  .paragraph-recieve-confirmation {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    display:contents;
+    margin-top: 0rem;
+  }
+  .visit-parivahan-image {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    width: 3rem;
+  }
+  .visit-parivahan {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: -1rem !important;
+    font-weight: bold !important;
+    /* width: 28rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-visit-parivahan {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: -2rem;
+    margin-top: 0rem;
+  }
+  .get-challan-details-image {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    width: 3rem;
+  }
+  .get-challan-details {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: -1rem !important;
+    font-weight: bold !important;
+    /* width: 29rem !important; */
+    margin-top: -3rem;
+  }
+  .paragraph-get-challan-details {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: -12rem;
+    margin-top: 0rem;
+  }
+  .details-captcha-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .details-captcha {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 0rem !important;
+    font-weight: bold !important;
+    /* width: 27rem !important; */
+    margin-top: -2rem;
+  }
+  .paragraph-details-captcha {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: 2rem;
+    margin-top: 0rem;
+  }
+  .select-e-challan-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .select-e-challan {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 2rem !important;
+    font-weight: bold !important;
+    /* width: 21rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-select-e-challan {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: 0rem;
+    margin-top: 0rem;
+  }
+  .proceed-payment-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .proceed-payment {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 0rem !important;
+    font-weight: bold !important;
+    /* width: 27rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-proceed-payment {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: -13rem;
+    margin-top: 0rem;
+  }
+  .visit-traffic-police-image {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    width: 3rem;
+  }
+  .visit-traffic-police {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 0rem !important;
+    font-weight: bold !important;
+    /* width: 26rem !important; */
+    margin-top: -2rem;
+  }
+  .paragraph-visit-traffic-police {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: 2rem;
+    margin-top: 0rem;
+  }
+  .valid-documents-image {
+    position: relative;
+    right: 12rem;
+    top: 1rem;
+    width: 3rem;
+  }
+  .valid-documents {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 1rem !important;
+    font-weight: bold !important;
+    /* width: 23rem !important; */
+    margin-top: -3rem;
+  }
+  .paragraph-valid-documents {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: -19rem;
+    margin-top: 0rem;
+  }
+  .pay-fine-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .pay-fine {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 4rem !important;
+    font-weight: bold !important;
+    /* width: 9rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-pay-fine {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: 12rem;
+    margin-top: 0rem;
+  }
+  .get-a-receipt-image {
+    position: relative;
+    right: 12rem;
+    top: 2rem;
+    width: 3rem;
+  }
+  .get-a-receipt {
+    font-size: 19px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 3rem !important;
+    font-weight: bold !important;
+    /* width: 13rem !important; */
+    margin-top: -1rem;
+  }
+  .paragraph-get-a-receipt {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-right: 8rem;
+    margin-top: 0rem;
+  }
+  .footer-park-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1rem;
+    background: darkorchid;
+    height: 10rem;
+    padding-right: 3rem;
+    color: white;
+    padding-top: 1rem;
+  }
+  .footer-terms-condition {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: -4rem;
+    padding-left: 16rem;
+    color: white;
+  }
+}
+
+/* Tablet (portrait) */
+@media (min-width: 480px) and (max-width: 768px) {
+  .ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
+    margin-left: 0rem !important;
+}
+.vehicle-number-image {
+  position: relative !important;
+  right: 21rem !important;
+  top: 3rem !important;
+}
+.e-challan-status {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  /* margin-left: -7rem !important; */
+  font-weight: bold !important;
+  /* width: 62rem !important; */
+  margin-top: -2rem;
+  position: relative;
+  left: 3rem !important;
+}
+.check-challan-status-image {
+  position: relative !important;
+  right: 20rem !important;
+  top: 2rem !important;
+  width: 5rem !important;
+}
+.pending-challan-image {
+  position: relative !important;
+  right: 20rem !important;
+  top: 2rem !important;
+  width: 5rem !important;
+}
+.recieve-confirmation-image {
+  position: relative !important;
+  right: 20rem !important;
+  top: 21px !important;
+  width: 5rem !important;
+}
+  .home-text {
+    position: relative;
+    top: -12rem;
+    left: -6rem;
+    font-size: 28px;
+    font-family: "RobotoNormal, sans-serif";
+}
+.image-home {
+  position: relative;
+  left: 207px;
+  top: 12rem;
+  width: 100%;
+}
+.checkbox-text {
+  position: relative;
+  left: -4rem;
+  top: -11rem;
+  font-size: 18px;
+  font-family: "RobotoNormal, sans-serif";
+}
+.easily-pay {
+  position: relative;
+  top: -11rem;
+  left: -4.5rem;
+  font-family: RobotoNormal, sans-serif;
+  font-size: 18px;
+}
+.avoid-court {
+  position: relative;
+  left: -3.5rem;
+  top: -11rem;
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 18px;
+}
+.enter-vehicle-text {
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  position: relative;
+  top: 22rem;
+  /* width: 20rem; */
+  right: 59rem;
+}
+.input {
+  display: flex !important;
+  align-items: center !important;
+  width: 229px !important;
+  height: 54px !important;
+  background: #eaeaea !important;
+  border-radius: 20px !important;
+  margin-top: 32rem !important;
+  position: relative;
+  right: 56rem;
+  top: -8rem;
+}
+.view-challan-button {
+  line-height: 24px;
+  font-family: "RobotoMedium, sans-serif";
+  color: white;
+  background: darkorchid;
+  font-size: 24px;
+  width: 10rem;
+  border-radius: 20px;
+  height: 3rem;
+  position: relative;
+  left: -54rem;
+  top: -9rem;
+}
+.check-text {
+  font-size: 26px !important;
+  line-height: 36px !important;
+  font-family: "RobotoNormal, sans-serif" !important;
+  position: relative !important;
+  right: 8rem !important;
+  top: -6rem !important;
+}
+.h2-heading-paragraph-text {
+  font-family: "RobotoNormal, sans-serif" !important;
+  font-size: 18px;
+  line-height: 27.8px !important;
+  position: relative !important;
+  top: -6rem !important;
+}
+.e-challan {
+  position: relative !important;
+  right: 11rem !important;
+  top: -5rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.e-challan-paragraph-text {
+  font-family: "RobotoNormal, sans-serif" !important;
+  font-size: 18px;
+  line-height: 27.8px !important;
+  position: relative !important;
+  top: -4rem !important;
+}
+.read-more-button {
+  /* padding: 10px 20px; */
+  background-color: darkorchid;
+  color: white;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: -7rem;
+  right: -11rem;
+  width: 8rem;
+}
+.check-e-challan {
+  display: contents;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.check-your-challan {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  display: contents;
+}
+.pay-e-challan {
+  position: relative !important;
+  right: 8rem !important;
+  top: -1rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.paragarph-pay-online {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  position: relative;
+  top: 0rem;
+  left: 4rem;
+}
+.e-challan-question {
+  position: relative !important;
+  right: 6rem !important;
+  top: 1rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.paragraph-e-challan-question {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+}
+.penalties-and-fines {
+  position: relative !important;
+  right: 12rem !important;
+  top: 1rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.paragraph-penalties-and-fines {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+}
+/* .advantage-challan-payment {
+  position: relative !important;
+  right: 5rem !important;
+  top: 1rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+} */
+.paragraph-advantage-e-challan {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  position: relative;
+  right: -3rem;
+  top: 1rem;
+}
+.conclusion {
+  position: relative !important;
+  right: 14rem !important;
+  top: 1rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.paragraph-conclusion {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  position: relative;
+  left: 5rem;
+  top: 1rem;
+}
+.violations-and-penalties {
+  margin-top: -3rem !important;
+  font-size: 26px !important;
+  line-height: 32px !important;
+  font-family: " RobotoBold, sans-serif" !important;
+  position: relative !important;
+  right: 4rem !important;
+}
+.paragraph-traffic-violations {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 18px;
+  line-height: 27.8px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.offences-document {
+  line-height: 26px !important;
+  font-family: "RobotoMedium, sans-serif" !important;
+  margin-top: 1rem !important;
+  margin-right: 18rem !important;
+  font-weight: bold !important;
+}
+.offences-table {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 1rem !important;
+  width: 100% !important;
+}
+.view-more-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 22rem;
+}
+.offense-related {
+  line-height: 24px !important;
+  font-family: "RobotoMedium, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: 28rem !important;
+  font-weight: bold !important;
+}
+.offense-related-table {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  width: 100%;
+}
+.check-challan {
+  font-size: 26px !important;
+  line-height: 36px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-right: 8rem;
+  margin-top: 5rem;
+}
+.first-col-6 {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+  width: 100% !important;
+  height: 806px !important;
+  background: #e1e8ed !important;
+  border-radius: 20px !important;
+}
+.step-for-check-challan {
+  font-size: 30px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: 2rem !important;
+}
+.paragraph-visit-app {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 13rem;
+  margin-top: 3rem;
+}
+.click-challan {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 25rem;
+  margin-top: 2rem;
+}
+.enter-vehicle-number {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+.find-update-button {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+.get-e-challan-status {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+.first-box-image {
+  display: contents;
+}
+
+.second-col-6 {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+  width: 100% !important;
+  height: 877px !important;
+  background: #e1e8ed !important;
+  border-radius: 20px !important;
+}
+.parivahan-website {
+  font-size: 30px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: 1rem !important;
+}
+.visit-parivahan-website {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 1rem;
+  margin-top: 3rem;
+}
+.click-get-challan-details {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: -1rem;
+  margin-top: 0rem;
+}
+.enter-details-captcha {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 1rem;
+}
+.select-the-e-challan {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 3rem;
+  margin-top: 1rem;
+  /* width: 51rem; */
+}
+.proceed-the-payment {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+.studio-display-image {
+  display: contents;
+}
+.how-can-pay-challan {
+  font-size: 26px !important;
+  line-height: 36px !important;
+  font-family: " RobotoBold, sans-serif" !important;
+  position: relative !important;
+  top: -5rem !important;
+  right: 12rem !important;
+}
+.paragraph-pay-online-offline {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-top: -4rem;
+  margin-left: 3rem;
+}
+div#rc-tabs-1-tab-1 {
+  width: 14rem !important;
+  font-size: 24px !important;
+  line-height: 2px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+  margin-left: 9rem;
+}
+div#rc-tabs-1-tab-2 {
+  width: 18rem !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+  margin-left: -1rem;
+}
+div#rc-tabs-1-tab-3 {
+  width: 12rem !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+}
+.open-challanDekho-image {
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  width: 5rem;
+}
+.open-challan-dekho {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 11rem !important;
+  font-weight: bold !important;
+  width: 17rem !important;
+  margin-top: -4rem;
+}
+.paragraph-challan-dekho {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 0rem;
+  margin-top: 1rem;
+}
+.vehicle-number-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 7rem;
+}
+.vehicle-number {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 8rem !important;
+  font-weight: bold !important;
+  /* width: 22rem !important; */
+  margin-top: -1rem;
+}
+.paragraph-vehicle-number {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  width:100%;
+  margin-top: 1rem;
+}
+.check-challan-status-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.e-challan-status {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  /* margin-left: -7rem !important; */
+  font-weight: bold !important;
+  /* width: 62rem !important; */
+  margin-top: -2rem;
+  position: relative;
+  left: -14rem;
+}
+.paragraph-challan-status {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+ width: 100%;
+  margin-top: 1rem;
+}
+.pending-challan-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.pending-challan {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 32rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-pending-challan {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  width: 100%;
+  margin-top: 1rem;
+}
+.recieve-confirmation-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.recieve-confirmation {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 5rem !important;
+  font-weight: bold !important;
+  /* width: 43rem !important; */
+  margin-top: -2rem;
+}
+.paragraph-recieve-confirmation {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+ width: 100%;
+  margin-top: 1rem;
+}
+.visit-parivahan-image {
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  width: 5rem;
+}
+.visit-parivahan {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 5rem !important;
+  font-weight: bold !important;
+  /* width: 28rem !important; */
+  margin-top: -2rem;
+}
+.paragraph-visit-parivahan {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 0rem;
+  margin-top: 1rem;
+}
+.get-challan-details-image {
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  width: 5rem;
+}
+.get-challan-details {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 5rem !important;
+  font-weight: bold !important;
+  /* width: 29rem !important; */
+  margin-top: -4rem;
+}
+.paragraph-get-challan-details {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -14rem;
+  margin-top: 1rem;
+}
+.details-captcha-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 3rem;
+}
+.details-captcha {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 27rem !important; */
+  margin-top: -2rem;
+}
+.paragraph-details-captcha {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 6rem;
+  margin-top: 1rem;
+}
+.select-e-challan-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.select-e-challan {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 7rem !important;
+  font-weight: bold !important;
+  /* width: 21rem !important; */
+  margin-top: -2rem;
+}
+.paragraph-select-e-challan {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 4rem;
+  margin-top: 1rem;
+}
+.proceed-payment-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.proceed-payment {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 27rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-proceed-payment {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -14rem;
+  margin-top: 1rem;
+}
+.visit-traffic-police-image {
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  width: 5rem;
+}
+.visit-traffic-police {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 5rem !important;
+  font-weight: bold !important;
+  /* width: 26rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-visit-traffic-police {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 7rem;
+  margin-top: 1rem;
+}
+.valid-documents-image {
+  position: relative;
+  right: 18rem;
+  top: 1rem;
+  width: 3rem;
+}
+.valid-documents {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 23rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-valid-documents {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -22rem;
+  margin-top: 1rem;
+}
+.pay-fine-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.pay-fine {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 8rem !important;
+  font-weight: bold !important;
+  /* width: 9rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-pay-fine {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 21rem;
+  margin-top: 1rem;
+}
+.get-a-receipt-image {
+  position: relative;
+  right: 18rem;
+  top: 2rem;
+  width: 5rem;
+}
+.get-a-receipt {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 8rem !important;
+  font-weight: bold !important;
+  /* width: 13rem !important; */
+  margin-top: -2rem;
+}
+.paragraph-get-a-receipt {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: 13rem;
+  margin-top: 1rem;
+}
+.footer-park-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+  background: darkorchid;
+  height: 10rem;
+  padding-right: 19rem;
+  color: white;
+  padding-top: 1rem;
+}
+.footer-terms-condition {
+font-size: 12px;
+line-height: 24px;
+margin-top: -4rem;
+padding-left: 16rem;
+color: white;
+} 
+
+
+
+
+}
+@media (max-width: 1024px) {
+  .row {
+    width: 80rem;
+}
+  .studio-display-image {
+    margin-right: 3rem;
+    display: contents;
+}
+.first-box-image {
+  display: contents;
+}
+.home-text {
+  position: relative;
+  top: -23rem;
+  left: -7rem;
+  font-size: 45px;
+  font-family: "RobotoNormal, sans-serif";
+}
+.image-home {
+  position: relative;
+  left: 17rem;
+  top: 2rem;
+  width: 100%;
+}
+.checkbox-text {
+  position: relative;
+  left: -8rem;
+  top: -22rem;
+  font-size: 22px;
+  font-family: "RobotoNormal, sans-serif";
+}
+.easily-pay {
+  position: relative;
+  top: -22rem;
+  left: -8.8rem;
+  font-family: RobotoNormal, sans-serif;
+  font-size: 22px;
+}
+.avoid-court {
+  position: relative;
+  left: -7.5rem;
+  top: -22rem;
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 22px;
+}
+.enter-vehicle-text {
+  font-size: 35px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  position: relative;
+  top: 18rem;
+  /* width: 20rem; */
+  right: 48rem;
+}
+.input {
+  display: flex !important;
+  align-items: center !important;
+  width: 100%;
+  height: 54px !important;
+  background: #eaeaea !important;
+  border-radius: 20px !important;
+  /* margin-top: 32rem !important; */
+  position: relative;
+  right: 46rem;
+  top: 11rem;
+}
+.view-challan-button {
+  line-height: 24px;
+  font-family: "RobotoMedium, sans-serif";
+  color: white;
+  background: darkorchid;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 20px;
+  height: 3rem;
+  position: relative;
+  left: -47rem;
+  top: 12rem;
+}
+.check-text {
+  font-size: 27px !important;
+  line-height: 36px !important;
+  font-family: "RobotoNormal, sans-serif" !important;
+  position: relative !important;
+  right: 18rem !important;
+  top: 14rem !important;
+}
+.h2-heading-paragraph-text {
+  font-family: "RobotoNormal, sans-serif" !important;
+  font-size: 20px;
+  line-height: 27.8px !important;
+  position: relative !important;
+  top: 14rem !important;
+}
+.e-challan {
+  position: relative !important;
+  right: 21rem !important;
+  top: 13rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 26px !important;
+}
+.e-challan-paragraph-text {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 20px;
+  line-height: 28.8px;
+  position: relative;
+  top: 13rem;
+}
+.read-more-button {
+  /* padding: 10px 20px; */
+  background-color: darkorchid;
+  color: white;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: -1rem;
+  right: -19rem;
+  width: 8rem;
+}
+.check-e-challan {
+  position: relative;
+  right: 14rem;
+  top: 13rem;
+  font-family: "RobotoBold, sans-serif";
+  font-size: 30px;
+}
+.check-your-challan {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  /* display: contents; */
+  left: 3rem;
+  top: 13rem;
+}
+.pay-e-challan {
+  position: relative !important;
+  right: 18rem !important;
+  top: 13rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 27px !important;
+}
+.paragarph-pay-online {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  position: relative;
+  top: 13rem;
+  left: 3rem;
+}
+.e-challan-question {
+  position: relative !important;
+  right: 16rem !important;
+  top: 13rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 27px !important;
+}
+.paragraph-e-challan-question {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  position: relative;
+  left: 4rem;
+  top: 13rem;
+}
+.penalties-and-fines {
+  position: relative !important;
+  right: 21rem !important;
+  top: 13rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 27px !important;
+}
+.paragraph-penalties-and-fines {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  position: relative;
+  top: 13rem;
+  left: 4rem;
+}
+.advantage-challan-payment {
+  position: relative !important;
+  right: 14rem !important;
+  top: 13rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 27px !important;
+}
+.paragraph-advantage-e-challan {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  position: relative;
+  right: -3rem;
+  top: 13rem;
+}
+.conclusion {
+  position: relative !important;
+  right: 23rem !important;
+  top: 12rem !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  font-size: 27px !important;
+}
+.paragraph-conclusion {
+  font-family: "RobotoMedium, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  position: relative;
+  left: 4rem;
+  top: 12rem;
+}
+.violations-and-penalties {
+  margin-top: 0rem !important;
+  font-size: 27px !important;
+  line-height: 32px !important;
+  font-family: " RobotoBold, sans-serif" !important;
+  position: relative !important;
+  right: 13rem !important;
+}
+.paragraph-traffic-violations {
+  font-family: "RobotoNormal, sans-serif";
+  font-size: 20px;
+  line-height: 27.8px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.offences-document {
+  line-height: 26px !important;
+  font-family: "RobotoMedium, sans-serif" !important;
+  margin-top: 2rem !important;
+  margin-right: 29rem !important;
+  font-weight: bold !important;
+}
+.offences-table {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+  width: 100% !important;
+}
+.view-more-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30rem;
+}
+.offense-related {
+  line-height: 24px !important;
+  font-family: "RobotoMedium, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: 41rem !important;
+  font-weight: bold !important;
+}
+.offense-related-table {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  width: 100%;
+}
+.check-challan {
+  font-size: 27px !important;
+  line-height: 36px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-right: 2rem;
+  margin-top: -10rem;
+}
+.first-col-6 {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+  width: 450px !important;
+  /* height: 850px !important; */
+  background: #e1e8ed !important;
+  margin-left: 19rem !important;
+  border-radius: 20px !important;
+}
+.container, .container-md, .container-sm {
+  max-width: 1024px !important; 
+}
+.step-for-check-challan {
+  font-size: 18px !important;
+  line-height: 20px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: 2rem !important;
+}
+.paragraph-visit-app {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 8rem;
+  margin-top: 1rem;
+}
+.click-challan {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 16rem;
+  margin-top: 0rem;
+}
+.enter-vehicle-number {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 1rem;
+  margin-top: 0rem;
+}
+.find-update-button {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 0rem;
+}
+.get-e-challan-status {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 0rem;
+}
+
+.click-get-challan-details {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 0rem;
+}
+.second-col-6 {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+  width: 450px !important;
+  /* height: 877px !important; */
+  background: #e1e8ed !important;
+  border-radius: 20px !important;
+}
+.parivahan-website {
+  font-size: 20px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-top: 3rem !important;
+  margin-right: -1rem !important;
+}
+.visit-parivahan-website {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 0rem;
+  margin-top: 1rem;
+}
+.click-get-challan-details {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: -1rem;
+  margin-top: 0rem;
+}
+.enter-details-captcha {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 0rem;
+  margin-top: 0rem;
+}
+.select-the-e-challan {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 1rem;
+  margin-top: 0rem;
+  /* width: 51rem; */
+}
+.proceed-the-payment {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 2rem;
+  margin-top: 1rem;
+}
+
+.how-can-pay-challan {
+  font-size: 27px !important;
+  line-height: 36px !important;
+  font-family: " RobotoBold, sans-serif" !important;
+  position: relative !important;
+  top: 4rem !important;
+  right: 17rem !important;
+}
+.paragraph-pay-online-offline {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-top: 4rem;
+  margin-left: 6rem;
+}
+div#rc-tabs-1-tab-1 {
+  width: 22rem !important;
+  font-size: 25px !important;
+  line-height: 2px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+  margin-left: 14rem;
+}
+div#rc-tabs-1-tab-2 {
+  width: 22rem !important;
+  font-size: 25px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+  margin-left: -1rem;
+}
+div#rc-tabs-1-tab-3 {
+  width: 22rem !important;
+  font-size: 25px !important;
+  line-height: 24px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  color: black !important;
+}
+.open-challanDekho-image {
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+  width: 5rem;
+}
+.open-challan-dekho {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 9rem !important;
+  font-weight: bold !important;
+  width: 18rem !important;
+  margin-top: -5rem;
+}
+.paragraph-challan-dekho {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -37rem;
+  margin-top: 0rem;
+}
+.vehicle-number-image {
+  position: relative;
+  right: 27rem;
+  top: 4rem;
+  width: 6rem;
+}
+.vehicle-number {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 22rem !important; */
+  margin-top: -1rem;
+}
+.paragraph-vehicle-number {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  width: 100%;
+  margin-top: 0rem;
+  margin-left: -6rem;
+  /* display: contents; */
+}
+.check-challan-status-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.e-challan-status {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  /* margin-left: -7rem !important; */
+  font-weight: bold !important;
+  /* width: 62rem !important; */
+  margin-top: -2rem;
+  position: relative;
+  left: -12rem;
+}
+.paragraph-challan-status {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  width: 100%;
+  margin-left: -8rem;
+  margin-top: 1rem;
+}
+.pending-challan-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.pending-challan {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: -21rem !important;
+  font-weight: bold !important;
+  /* width: 32rem !important; */
+  margin-top: -3rem;
+  /* display: contents; */
+}
+.paragraph-pending-challan {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: -9rem;
+}
+.recieve-confirmation-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.recieve-confirmation {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: -14rem !important;
+  font-weight: bold !important;
+  /* width: 32rem !important; */
+  margin-top: -3rem;
+  /* display: contents; */
+}
+.paragraph-recieve-confirmation {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+ width: 100%;
+  margin-top: 1rem;
+  display: contents;
+}
+.visit-parivahan-image {
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+  width: 5rem;
+}
+  .visit-parivahan {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    margin-left: 3rem !important;
+    font-weight: bold !important;
+    /* width: 28rem !important; */
+    margin-top: -2rem;
+}
+.paragraph-visit-parivahan {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: -21rem;
+  margin-top: 0rem;
+}
+.get-challan-details-image {
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+  width: 5rem;
+}
+.get-challan-details {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 3rem !important;
+  font-weight: bold !important;
+  /* width: 29rem !important; */
+  margin-top: -5rem;
+}
+.paragraph-get-challan-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -33rem;
+  margin-top: 0rem;
+}
+.details-captcha-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 4rem;
+}
+.details-captcha {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 3rem !important;
+  font-weight: bold !important;
+  /* width: 27rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-details-captcha {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -35rem;
+  margin-top: 0rem;
+}
+.select-e-challan-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.select-e-challan {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 4rem !important;
+  font-weight: bold !important;
+  /* width: 21rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-select-e-challan {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -35rem;
+  margin-top: 0rem;
+}
+.proceed-payment-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.proceed-payment {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 3rem !important;
+  font-weight: bold !important;
+  /* width: 27rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-proceed-payment {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -35rem;
+  margin-top: 0rem;
+}
+.visit-traffic-police-image {
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+  width: 5rem;
+}
+.visit-traffic-police {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 3rem !important;
+  font-weight: bold !important;
+  /* width: 26rem !important; */
+  margin-top: -4rem;
+}
+.paragraph-visit-traffic-police {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -34rem;
+  margin-top: 0rem;
+}
+.valid-documents-image {
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+  width: 4rem;
+}
+.valid-documents {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 4rem !important;
+  font-weight: bold !important;
+  /* width: 23rem !important; */
+  margin-top: -4rem;
+}
+.paragraph-valid-documents {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -35rem;
+  margin-top: 0rem;
+}
+.pay-fine-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.pay-fine {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 7rem !important;
+  font-weight: bold !important;
+  /* width: 9rem !important; */
+  margin-top: -3rem;
+}
+.paragraph-pay-fine {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -38rem;
+  margin-top: 0rem;
+}
+.get-a-receipt-image {
+  position: relative;
+  right: 27rem;
+  top: 2rem;
+  width: 5rem;
+}
+.get-a-receipt {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  margin-left: 6rem !important;
+  font-weight: bold !important;
+  /* width: 13rem !important; */
+  margin-top: -4rem;
+}
+.paragraph-get-a-receipt {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-right: -37rem;
+  margin-top: 0rem;
+}
+.footer-park-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 1rem;
+  background: darkorchid;
+  height: 10rem;
+  padding-right: 19rem;
+  color: white;
+  padding-top: 1rem;
+}
+.footer-terms-condition {
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: -20rem;
+  color: white;
+}
+.ant-tabs-nav {
+  margin-left: -22rem !important;
+  width: 84rem !important;
+}
+.ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
+  margin-left: 2rem !important;
+}
+.ant-tabs-nav-operations {
+  gap: 200px;
+  margin-left: -20rem !important;
+}
+
+}
