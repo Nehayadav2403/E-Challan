@@ -72,7 +72,7 @@ code {
   font-family: "RobotoBold, sans-serif";
   position: relative;
   top: 7rem;
-  width: 75rem;
+  left: 26rem;
 }
 .input {
   display: flex;
@@ -99,6 +99,7 @@ code {
   position: relative;
   top: 17rem;
   left: 3rem;
+  width: 81rem
 }
 .e-challan {
   position: relative;
@@ -114,6 +115,7 @@ code {
   position: relative;
   top: 17rem;
   left: 3rem;
+  width: 81rem
 }
 .read-more-button {
   margin-top: 270px;
@@ -139,6 +141,7 @@ code {
   position: relative;
   left: 3rem;
   top: 17rem;
+  width: 81rem
 }
 .pay-e-challan {
   position: relative;
@@ -154,6 +157,7 @@ code {
   position: relative;
   top: 17rem;
   left: 3rem;
+  width: 81rem
 }
 .e-challan-question {
   position: relative;
@@ -169,6 +173,7 @@ code {
   position: relative;
   left: 3rem;
   top: 16rem;
+  width: 81rem
 }
 .penalties-and-fines {
   position: relative;
@@ -183,7 +188,8 @@ code {
   line-height: 28.8px;
   position: relative;
   top: 15rem;
-  left: 2rem;
+  left: 3rem;
+  width: 80rem
 }
 .advantage-challan-payment {
   position: relative;
@@ -197,8 +203,9 @@ code {
   font-size: 21px;
   line-height: 28.8px;
   position: relative;
-  right: -1rem;
+  left: 3rem;
   top: 14rem;
+  width: 81rem
 }
 .conclusion {
   position: relative;
@@ -214,6 +221,7 @@ code {
   position: relative;
   left: 3rem;
   top: 14rem;
+  width: 81rem
 }
 
 .read-more-link {
@@ -453,17 +461,16 @@ div#rc-tabs-1-tab-3 {
 
 .open-challanDekho-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 1rem;
   width: 5rem;
 }
 .ant-tabs-nav {
-  margin-left: -22rem !important;
-  width: 84rem !important;
+  display: contents;
 }
-.ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
+/* .ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
   margin-left: 25rem !important;
-}
+} */
 .ant-tabs-nav-operations {
   gap: 200px;
   margin-left: -20rem !important;
@@ -472,7 +479,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -61rem;
+  margin-left: -41rem;
   font-weight: bold;
   margin-top: -4rem;
 }
@@ -482,11 +489,11 @@ div#rc-tabs-1-tab-3 {
   font-family: "RobotoNormal, sans-serif";
   /* display: contents; */
   margin-top: 1rem;
-  margin-left: -57rem;
+  margin-left: -37rem;
 }
 .vehicle-number-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 4rem;
   width: 8rem;
 }
@@ -494,7 +501,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -13rem;
+  margin-left: 10rem;
   font-weight: bold;
   width: 22rem;
 }
@@ -502,12 +509,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -50rem;
+  margin-left: -29rem;
   margin-top: 1rem;
 }
 .check-challan-status-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -517,18 +524,18 @@ div#rc-tabs-1-tab-3 {
   font-family: "RobotoBold, sans-serif";
   font-weight: bold;
   position: relative;
-  left: -30rem;
+  left: -19rem;
 }
 .paragraph-challan-status {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -55rem;
+  margin-left: -34rem;
   margin-top: 1rem;
 }
 .pending-challan-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -536,7 +543,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -58rem;
+  margin-left: -35rem;
   font-weight: bold;
   /* width: 13rem; */
 }
@@ -544,12 +551,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -58rem;
+  margin-left: -35rem;
   margin-top: 1rem;
 }
 .recieve-confirmation-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -557,7 +564,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -48rem;
+  margin-left: -26rem;
   font-weight: bold;
   /* width: 43rem; */
 }
@@ -569,11 +576,11 @@ div#rc-tabs-1-tab-3 {
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
   margin-top: 2rem;
-  margin-left: -29rem;
+  margin-left: -6rem;
 }
 .visit-parivahan-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 1rem;
   width: 5rem;
 }
@@ -581,7 +588,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 28rem;
   margin-top: -2rem;
@@ -590,12 +597,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -55rem;
+  margin-left: -33rem;
   margin-top: 1rem;
 }
 .get-challan-details-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -603,7 +610,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 29rem;
 }
@@ -611,12 +618,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -42rem;
+  margin-left: -19rem;
   margin-top: 1rem;
 }
 .details-captcha-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 4rem;
 }
@@ -624,7 +631,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 27rem;
 }
@@ -632,12 +639,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -63rem;
+  margin-left: -39rem;
   margin-top: 1rem;
 }
 .select-e-challan-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -645,7 +652,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 21rem;
 }
@@ -653,12 +660,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -62rem;
+  margin-left: -38rem;
   margin-top: 1rem;
 }
 .proceed-payment-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -666,7 +673,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -15rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 27rem;
 }
@@ -674,12 +681,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -45rem;
+  margin-left: -20rem;
   margin-top: 1rem;
 }
 .visit-traffic-police-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -687,7 +694,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 26rem;
 }
@@ -695,12 +702,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -62rem;
+  margin-left: -40rem;
   margin-top: 1rem;
 }
 .valid-documents-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 4rem;
 }
@@ -708,7 +715,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -14rem;
+  margin-left: 9rem;
   font-weight: bold;
   width: 23rem;
 }
@@ -716,12 +723,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -36rem;
+  margin-left: -14rem;
   margin-top: 1rem;
 }
 .pay-fine-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -729,7 +736,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -13rem;
+  margin-left: 10rem;
   font-weight: bold;
   width: 9rem;
 }
@@ -737,12 +744,12 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -76rem;
+  margin-left: -54rem;
   margin-top: 1rem;
 }
 .get-a-receipt-image {
   position: relative;
-  right: 46rem;
+  right: 37rem;
   top: 5rem;
   width: 5rem;
 }
@@ -750,7 +757,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 30px;
   line-height: 32px;
   font-family: "RobotoBold, sans-serif";
-  margin-left: -13rem;
+  margin-left: 10rem;
   font-weight: bold;
   width: 13rem;
 }
@@ -758,7 +765,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 17px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-left: -70rem;
+  margin-left: -50rem;
   margin-top: 1rem;
 }
 
@@ -1576,47 +1583,18 @@ div#navbarSupportedContent {
   .ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
     margin-left: 0rem !important;
 }
-.vehicle-number-image {
-  position: relative !important;
-  right: 21rem !important;
-  top: 3rem !important;
+.ant-tabs-nav {
+  margin-left: -6rem !important;
+  width: 54rem !important;
 }
-.e-challan-status {
-  font-size: 24px !important;
-  line-height: 32px !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  /* margin-left: -7rem !important; */
-  font-weight: bold !important;
-  /* width: 62rem !important; */
-  margin-top: -2rem;
+
+.home-text {
   position: relative;
-  left: 3rem !important;
-}
-.check-challan-status-image {
-  position: relative !important;
-  right: 20rem !important;
-  top: 2rem !important;
-  width: 5rem !important;
-}
-.pending-challan-image {
-  position: relative !important;
-  right: 20rem !important;
-  top: 2rem !important;
-  width: 5rem !important;
-}
-.recieve-confirmation-image {
-  position: relative !important;
-  right: 20rem !important;
-  top: 21px !important;
-  width: 5rem !important;
-}
-  .home-text {
-    position: relative;
-    top: -12rem;
-    left: -6rem;
-    font-size: 28px;
-    font-family: "RobotoNormal, sans-serif";
-}
+  top: -17rem;
+  left: 5rem;
+  font-size: 45px;
+  font-family: "RobotoNormal, sans-serif";
+} 
 .image-home {
   position: relative;
   left: 207px;
@@ -1650,8 +1628,8 @@ div#navbarSupportedContent {
   font-family: "RobotoBold, sans-serif";
   position: relative;
   top: 22rem;
-  /* width: 20rem; */
-  right: 59rem;
+  width: 20rem;
+ left: -18rem;
 }
 .input {
   display: flex !important;
@@ -1662,7 +1640,7 @@ div#navbarSupportedContent {
   border-radius: 20px !important;
   margin-top: 32rem !important;
   position: relative;
-  right: 56rem;
+  right: 41rem;
   top: -8rem;
 }
 .view-challan-button {
@@ -1675,8 +1653,8 @@ div#navbarSupportedContent {
   border-radius: 20px;
   height: 3rem;
   position: relative;
-  left: -54rem;
-  top: -9rem;
+  left: -41rem;
+  top: -8rem;
 }
 .check-text {
   font-size: 26px !important;
@@ -1692,6 +1670,7 @@ div#navbarSupportedContent {
   line-height: 27.8px !important;
   position: relative !important;
   top: -6rem !important;
+  width: 44rem;
 }
 .e-challan {
   position: relative !important;
@@ -1700,12 +1679,24 @@ div#navbarSupportedContent {
   font-family: "RobotoBold, sans-serif" !important;
   font-size: 26px !important;
 }
+.e-challan-status {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-family: "RobotoBold, sans-serif" !important;
+  /* margin-left: -7rem !important; */
+  font-weight: bold !important;
+  /* width: 62rem !important; */
+  margin-top: -2rem;
+  position: relative;
+  left: -3rem;
+}
 .e-challan-paragraph-text {
   font-family: "RobotoNormal, sans-serif" !important;
   font-size: 18px;
   line-height: 27.8px !important;
   position: relative !important;
   top: -4rem !important;
+  width: 44rem;
 }
 .read-more-button {
   /* padding: 10px 20px; */
@@ -1715,8 +1706,8 @@ div#navbarSupportedContent {
   border-radius: 5px;
   cursor: pointer;
   position: relative;
-  top: -7rem;
-  right: -11rem;
+  top: -17rem;
+  left: 17rem;
   width: 8rem;
 }
 .check-e-challan {
@@ -1744,6 +1735,7 @@ div#navbarSupportedContent {
   position: relative;
   top: 0rem;
   left: 4rem;
+  width: 44rem;
 }
 .e-challan-question {
   position: relative !important;
@@ -1759,6 +1751,7 @@ div#navbarSupportedContent {
   position: relative;
   left: 3rem;
   top: 1rem;
+  width: 44rem;
 }
 .penalties-and-fines {
   position: relative !important;
@@ -1774,14 +1767,15 @@ div#navbarSupportedContent {
   position: relative;
   top: 1rem;
   left: 2rem;
+  width: 44rem;
 }
-/* .advantage-challan-payment {
+.advantage-challan-payment {
   position: relative !important;
   right: 5rem !important;
   top: 1rem !important;
   font-family: "RobotoBold, sans-serif" !important;
   font-size: 26px !important;
-} */
+}
 .paragraph-advantage-e-challan {
   font-family: "RobotoMedium, sans-serif";
   font-size: 18px;
@@ -1789,6 +1783,7 @@ div#navbarSupportedContent {
   position: relative;
   right: -3rem;
   top: 1rem;
+  width: 44rem;
 }
 .conclusion {
   position: relative !important;
@@ -1802,29 +1797,30 @@ div#navbarSupportedContent {
   font-size: 18px;
   line-height: 27.8px;
   position: relative;
-  left: 5rem;
+  left: 3rem;
   top: 1rem;
+  width: 44rem;
 }
 .violations-and-penalties {
-  margin-top: -3rem !important;
+  margin-top: -15rem !important;
   font-size: 26px !important;
   line-height: 32px !important;
   font-family: " RobotoBold, sans-serif" !important;
   position: relative !important;
-  right: 4rem !important;
+  right: 7rem !important;
 }
 .paragraph-traffic-violations {
   font-family: "RobotoNormal, sans-serif";
   font-size: 18px;
   line-height: 27.8px;
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-top: 1rem;
 }
 .offences-document {
   line-height: 26px !important;
   font-family: "RobotoMedium, sans-serif" !important;
-  margin-top: 1rem !important;
-  margin-right: 18rem !important;
+  margin-top: 2rem !important;
+  margin-right: 22rem !important;
   font-weight: bold !important;
 }
 .offences-table {
@@ -2011,7 +2007,7 @@ div#rc-tabs-1-tab-1 {
   margin-left: 9rem;
 }
 div#rc-tabs-1-tab-2 {
-  width: 18rem !important;
+  width: 14rem !important;
   font-size: 24px !important;
   line-height: 24px !important;
   font-family: "RobotoBold, sans-serif" !important;
@@ -2019,7 +2015,7 @@ div#rc-tabs-1-tab-2 {
   margin-left: -1rem;
 }
 div#rc-tabs-1-tab-3 {
-  width: 12rem !important;
+  width: 14rem !important;
   font-size: 24px !important;
   line-height: 24px !important;
   font-family: "RobotoBold, sans-serif" !important;
@@ -2044,8 +2040,11 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 0rem;
+  width: 38rem;
+  position: relative;
+  left: 42rem;
   margin-top: 1rem;
+
 }
 .vehicle-number-image {
   position: relative;
@@ -2060,14 +2059,16 @@ div#rc-tabs-1-tab-3 {
   margin-left: 8rem !important;
   font-weight: bold !important;
   /* width: 22rem !important; */
-  margin-top: -1rem;
+  margin-top: -2rem;
 }
 .paragraph-vehicle-number {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  width:100%;
+  width: 36rem;
   margin-top: 1rem;
+  position: relative;
+  left: 40rem;
 }
 .check-challan-status-image {
   position: relative;
@@ -2075,23 +2076,13 @@ div#rc-tabs-1-tab-3 {
   top: 2rem;
   width: 5rem;
 }
-.e-challan-status {
-  font-size: 24px !important;
-  line-height: 32px !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  /* margin-left: -7rem !important; */
-  font-weight: bold !important;
-  /* width: 62rem !important; */
-  margin-top: -2rem;
-  position: relative;
-  left: -14rem;
-}
 .paragraph-challan-status {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
- width: 100%;
+  width: 44rem;
   margin-top: 1rem;
+  margin-left: 4rem;
 }
 .pending-challan-image {
   position: relative;
@@ -2103,7 +2094,7 @@ div#rc-tabs-1-tab-3 {
   font-size: 24px !important;
   line-height: 32px !important;
   font-family: "RobotoBold, sans-serif" !important;
-  margin-left: 6rem !important;
+  margin-left: -3rem !important;
   font-weight: bold !important;
   /* width: 32rem !important; */
   margin-top: -3rem;
@@ -2112,8 +2103,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  width: 100%;
+  width: 45rem;
   margin-top: 1rem;
+  margin-left: 3rem;
 }
 .recieve-confirmation-image {
   position: relative;
@@ -2134,8 +2126,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
- width: 100%;
+  width: 36rem;
   margin-top: 1rem;
+  margin-left: 10rem;
 }
 .visit-parivahan-image {
   position: relative;
@@ -2156,8 +2149,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 0rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
+  width: 44rem;
+  margin-left: 2rem;
 }
 .get-challan-details-image {
   position: relative;
@@ -2172,14 +2166,15 @@ div#rc-tabs-1-tab-3 {
   margin-left: 5rem !important;
   font-weight: bold !important;
   /* width: 29rem !important; */
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 .paragraph-get-challan-details {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -14rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
+  width: 33rem;
+  margin-left: 10rem;
 }
 .details-captcha-image {
   position: relative;
@@ -2200,8 +2195,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 6rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
+  width: 50rem;
+  margin-left: -4rem;
 }
 .select-e-challan-image {
   position: relative;
@@ -2222,8 +2218,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 4rem;
-  margin-top: 1rem;
+  margin-left: -2rem;
+  margin-top: 0rem;
+  width: 48rem;
 }
 .proceed-payment-image {
   position: relative;
@@ -2244,8 +2241,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -14rem;
-  margin-top: 1rem;
+  margin-left: 11rem;
+  margin-top: 0rem;
+  width: 35rem;
 }
 .visit-traffic-police-image {
   position: relative;
@@ -2266,23 +2264,32 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 7rem;
+  margin-left: 7rem;
   margin-top: 1rem;
+  width: 26rem;
 }
 .valid-documents-image {
   position: relative;
   right: 18rem;
-  top: 1rem;
+  top: 2rem;
   width: 3rem;
 }
 .valid-documents {
-  font-size: 24px !important;
-  line-height: 32px !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  margin-left: 6rem !important;
-  font-weight: bold !important;
-  /* width: 23rem !important; */
-  margin-top: -3rem;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "RobotoBold, sans-serif";
+  margin-left: 5rem;
+  font-weight: bold;
+  width: 23rem;
+  margin-top: -2rem;
+}
+.paragraph-valid-documents {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "RobotoNormal, sans-serif";
+  margin-left: 8rem;
+  margin-top: 0rem;
+  width: 37rem;
 }
 .paragraph-valid-documents {
   font-size: 18px;
@@ -2310,8 +2317,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 21rem;
+  margin-left: 9rem;
   margin-top: 1rem;
+  width: 9rem;
 }
 .get-a-receipt-image {
   position: relative;
@@ -2332,35 +2340,35 @@ div#rc-tabs-1-tab-3 {
   font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: 13rem;
+  margin-left: 9rem;
   margin-top: 1rem;
+  width: 17rem;
 }
 .footer-park-text {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 1rem;
-  background: darkorchid;
-  height: 10rem;
-  padding-right: 19rem;
-  color: white;
-  padding-top: 1rem;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto !important;
+  background: darkorchid !important;
+  height: 10rem !important;
+  padding-right: 0rem !important;
+  color: white !important;
+  padding-top: 1rem !important;
 }
+
 .footer-terms-condition {
-font-size: 12px;
-line-height: 24px;
-margin-top: -4rem;
-padding-left: 16rem;
-color: white;
-} 
-
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 2rem;
+  color: white;
+  height: 31rem;
+}
 
 
 
 }
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .row {
-    width: 80rem;
+    width: 77rem;
 }
   .studio-display-image {
     margin-right: 3rem;
@@ -2378,7 +2386,7 @@ color: white;
 }
 .image-home {
   position: relative;
-  left: 17rem;
+  left: 16rem;
   top: 2rem;
   width: 100%;
 }
@@ -2409,8 +2417,8 @@ color: white;
   font-family: "RobotoBold, sans-serif";
   position: relative;
   top: 18rem;
-  /* width: 20rem; */
-  right: 48rem;
+  width: 20rem;
+  left: -22rem;
 }
 .input {
   display: flex !important;
@@ -2451,6 +2459,7 @@ color: white;
   line-height: 27.8px !important;
   position: relative !important;
   top: 14rem !important;
+  width: 60rem;
 }
 .e-challan {
   position: relative !important;
@@ -2465,6 +2474,7 @@ color: white;
   line-height: 28.8px;
   position: relative;
   top: 13rem;
+  width: 60rem;
 }
 .read-more-button {
   /* padding: 10px 20px; */
@@ -2492,6 +2502,7 @@ color: white;
   /* display: contents; */
   left: 3rem;
   top: 13rem;
+  width: 60rem;
 }
 .pay-e-challan {
   position: relative !important;
@@ -2507,6 +2518,7 @@ color: white;
   position: relative;
   top: 13rem;
   left: 3rem;
+  width: 60rem;
 }
 .e-challan-question {
   position: relative !important;
@@ -2522,6 +2534,7 @@ color: white;
   position: relative;
   left: 4rem;
   top: 13rem;
+  width: 60rem;
 }
 .penalties-and-fines {
   position: relative !important;
@@ -2537,6 +2550,7 @@ color: white;
   position: relative;
   top: 13rem;
   left: 4rem;
+  width: 60rem;
 }
 .advantage-challan-payment {
   position: relative !important;
@@ -2552,6 +2566,7 @@ color: white;
   position: relative;
   right: -3rem;
   top: 13rem;
+  width: 60rem;
 }
 .conclusion {
   position: relative !important;
@@ -2567,6 +2582,7 @@ color: white;
   position: relative;
   left: 4rem;
   top: 12rem;
+  width: 60rem;
 }
 .violations-and-penalties {
   margin-top: 0rem !important;
@@ -2636,7 +2652,7 @@ color: white;
   width: 450px !important;
   /* height: 850px !important; */
   background: #e1e8ed !important;
-  margin-left: 19rem !important;
+  margin-left: 17rem !important;
   border-radius: 20px !important;
 }
 .container, .container-md, .container-sm {
@@ -2814,7 +2830,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -37rem;
+  width: 81rem;
+  position: relative;
+  left: 17rem;
   margin-top: 0rem;
 }
 .vehicle-number-image {
@@ -2955,8 +2973,10 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -33rem;
   margin-top: 0rem;
+  width: 60rem;
+  right: -16rem;
+  position: relative;
 }
 .details-captcha-image {
   position: relative;
@@ -2977,7 +2997,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -35rem;
+  width: 60rem;
+  position: relative;
+  left: 27rem;
   margin-top: 0rem;
 }
 .select-e-challan-image {
@@ -2999,7 +3021,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -35rem;
+  width: 60rem;
+  position: relative;
+  left: 26rem;
   margin-top: 0rem;
 }
 .proceed-payment-image {
@@ -3021,7 +3045,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -35rem;
+  width: 60rem;
+  position: relative;
+  left: 17rem;
   margin-top: 0rem;
 }
 .visit-traffic-police-image {
@@ -3043,7 +3069,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -34rem;
+  width: 60rem;
+  position: relative;
+  left: 27rem;
   margin-top: 0rem;
 }
 .valid-documents-image {
@@ -3062,11 +3090,12 @@ div#rc-tabs-1-tab-3 {
   margin-top: -4rem;
 }
 .paragraph-valid-documents {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -35rem;
-  margin-top: 0rem;
+  margin-left: 9rem;
+  margin-top: 1rem;
+  width: 31rem;
 }
 .pay-fine-image {
   position: relative;
@@ -3087,7 +3116,9 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -38rem;
+  width: 60rem;
+  position: relative;
+  left: 36rem;
   margin-top: 0rem;
 }
 .get-a-receipt-image {
@@ -3109,8 +3140,10 @@ div#rc-tabs-1-tab-3 {
   font-size: 16px;
   line-height: 20px;
   font-family: "RobotoNormal, sans-serif";
-  margin-right: -37rem;
   margin-top: 0rem;
+  width: 60rem;
+  position: relative;
+  left: -15rem;
 }
 .footer-park-text {
   display: flex;
@@ -3129,16 +3162,16 @@ div#rc-tabs-1-tab-3 {
   margin-left: -20rem;
   color: white;
 }
-.ant-tabs-nav {
-  margin-left: -22rem !important;
-  width: 84rem !important;
-}
+
 .ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
   margin-left: 2rem !important;
 }
 .ant-tabs-nav-operations {
-  gap: 200px;
+  gap: 100px;
   margin-left: -20rem !important;
+}
+.ant-tabs-nav {
+  left: -20rem;
 }
 
 }

@@ -39,15 +39,12 @@ const TabComponent = () => {
           </p>
         </div>
       </div>
+      
       <Tabs
         defaultActiveKey="1"
         items={items}
         onChange={onChange}
-        tabBarStyle={{
-          marginBottom: "24px",
-          gap: "200px",
-          marginLeft: "-10rem",
-        }}
+       
       />
     </div>
   );

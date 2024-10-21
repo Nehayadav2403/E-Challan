@@ -16,6 +16,7 @@ const ChallanDekhoComponent = () => {
       <div className="paragraph-challan-dekho">
         <p className="paragraph-challan-dekho-text"> Open Challan Dekho app & Choose Challan as a service</p>
       </div>
+
       <div className="enter-vehicle-number-image">
         <img
           className="vehicle-number-image"
@@ -32,6 +33,7 @@ const ChallanDekhoComponent = () => {
           details
         </p>
       </div>
+      
       <div className="challan-status-image">
         <img
           className="check-challan-status-image"
