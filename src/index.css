@@ -50,7 +50,7 @@ code {
   flex-direction: column;
   margin: auto;
   margin-top: -28rem;
-  width: 100%;
+  width: 100% !important;
   background: #fff;
 }
 .view-challan-button {
@@ -60,10 +60,13 @@ code {
   background: darkorchid;
   font-size: 24px;
   margin-top: 1rem;
-  width: 18rem;
+  position: relative;
+  top: 0rem;
+  left: 26rem;
+  width: 23%;
   border-radius: 20px;
   height: 3rem;
-  margin-left: 28rem;
+  
 }
 .enter-vehicle-text {
   font-size: 35px;
@@ -71,17 +74,21 @@ code {
   font-family: "RobotoBold, sans-serif";
   position: relative;
   top: 7rem;
-  left: 26rem;
+  left: 58rem;
+  width: 25%;
 }
 .input {
   display: flex;
   align-items: center;
-  width: 352px;
+  
+  width: 25%;
   height: 68px;
   background: #eaeaea;
-  border-radius: 20px;
-  margin-top: 9rem;
-  margin-left: 26rem;
+  border-radius: 12px;
+  margin-top: 8rem;
+  position: relative;
+  left:58rem;
+  /* margin-left: 58rem; */
 }
 .check-text {
   font-size: 30px !important;
@@ -685,8 +692,8 @@ div#rc-tabs-1-tab-3 {
 }
 .visit-traffic-police-image {
   position: relative;
-  right: 37rem;
-  top: 5rem;
+  right: 35rem;
+  top: 1rem;
   width: 5rem;
 }
 .visit-traffic-police {
@@ -696,6 +703,7 @@ div#rc-tabs-1-tab-3 {
   margin-left: 9rem;
   font-weight: bold;
   width: 26rem;
+  margin-top: -4rem;
 }
 .paragraph-visit-traffic-police {
   font-size: 17px;
@@ -706,7 +714,7 @@ div#rc-tabs-1-tab-3 {
 }
 .valid-documents-image {
   position: relative;
-  right: 37rem;
+  right: 35rem;
   top: 5rem;
   width: 4rem;
 }
@@ -727,7 +735,7 @@ div#rc-tabs-1-tab-3 {
 }
 .pay-fine-image {
   position: relative;
-  right: 37rem;
+  right: 35rem;
   top: 5rem;
   width: 5rem;
 }
@@ -748,7 +756,7 @@ div#rc-tabs-1-tab-3 {
 }
 .get-a-receipt-image {
   position: relative;
-  right: 37rem;
+  right: 35rem;
   top: 5rem;
   width: 5rem;
 }
@@ -808,56 +816,125 @@ div#navbarSupportedContent {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 1rem;
   background: darkorchid;
-  height: 10rem;
-  padding-right: 56rem;
+  /* height: 10rem; */
   color: white;
-  padding-top: 1rem;
 }
 .footer-terms-condition {
   font-size: 21px;
   line-height: 24px;
-  margin-top: -6rem;
-  margin-left: 63rem;
   color: white;
+  background: #9932cc;
+}
+.input-error {
+  border-color: red;
+}
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  position: relative;
+  left: 25rem;
+}
+ul.nav.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 9rem;
+  margin-top: 18rem;
+  width: 80%;
+}
+li.nav-item-tab-2 {
+  width: 25% !important;
+  border: none !important;
+  font-family: "RobotoBold, sans-serif";
+}
+li.nav-item-tab-1 {
+  width: 25% !important;
+  border: none !important;
+  font-family: "RobotoBold, sans-serif";
+}
+li.nav-item-tab-0 {
+  width: 25% !important;
+  border: none !important;
+  font-family: "RobotoBold, sans-serif";
+}
+a#tab-1 {
+  border: none !important;
+  font-size: 20px;
+}
+a#tab-2 {
+  border: none !important;
+  margin-right: -4rem;
+  font-size: 20px;
+}
+
+a#tab-0 {
+  border: none !important;
+  margin-left: -4rem;
+  font-size: 20px;
 }
 
 /* Mobile (large phones) */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   /* Styles for large phones */
+  ul.nav.nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    width: 80%;
+  }
+  a#tab-1 {
+    border: none !important;
+  }
+  a#tab-2 {
+    border: none !important;
+    margin-right: -4rem;
+  }
+
+  a#tab-0 {
+    border: none !important;
+    margin-left: -3rem;
+  }
+  .input-error {
+    border-color: red;
+  }
+  .error-text {
+    color: red;
+    font-size: 0.9em;
+    position: relative;
+    left: -8rem;
+  }
   .navbar-container {
     max-width: 100%;
   }
   .navbar-logo-image {
-    width: 10rem;
+    width: 70%;
     position: relative;
     top: -11rem;
-    left: 2rem;
+    left: 1rem;
   }
   .home-text {
     position: relative;
-    top: -10rem;
-    left: 0rem;
-    font-size: 24px;
+    top: -7rem;
+    left: 1rem;
+    font-size: 26px;
     font-family: "RobotoNormal, sans-serif";
   }
   .image-home {
     position: relative;
-    left: 7rem;
-    top: 2rem;
+    left: 5rem;
     width: 100%;
   }
   .checkbox-text {
     position: relative;
     left: 1rem;
-    top: -10rem;
+    top: -7rem;
     font-size: 14px;
     font-family: "RobotoNormal, sans-serif";
   }
   .easily-pay {
     position: relative;
-    top: -10rem;
+    top: -7rem;
     left: 0.5rem;
     font-family: RobotoNormal, sans-serif;
     font-size: 14px;
@@ -868,127 +945,138 @@ div#navbarSupportedContent {
   }
   .avoid-court {
     position: relative;
-    left: 1rem;
-    top: -10rem;
+    left: 1.4rem;
+    top: -7rem;
     font-family: "RobotoNormal, sans-serif";
     font-size: 14px;
   }
   .enter-vehicle-text {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 20px;
     font-family: "RobotoBold, sans-serif";
     position: relative;
-    top: 22rem;
-    width: 12rem;
-    left: -8rem;
-}
-.view-challan-button {
-  line-height: 24px;
-  font-family: "RobotoMedium, sans-serif";
-  color: white;
-  background: darkorchid;
-  font-size: 24px;
-  width: 10rem;
-  border-radius: 20px;
-  height: 2rem;
-  position: relative;
-  right: 35rem;
-  top: 0rem;
-}
+    top: 25rem;
+    width: 50%;
+    left: 1rem;
+  }
+  .view-challan-button {
+    line-height: 28px;
+    font-family: "RobotoMedium, sans-serif";
+    color: white;
+    background: darkorchid;
+    font-size: 16px;
+    width: 42%;
+    border-radius: 21px;
+    height: 3rem;
+    position: relative;
+  left: -5rem;
+  top: -9px;
+  }
   .input {
-    display: flex !important;
-    align-items: center !important;
-    width: 193px !important;
+    /* display: flex !important; */
+    /* align-items: inherit; */
+    width: 50% !important;
     height: 40px !important;
     background: #eaeaea !important;
-    border-radius: 20px !important;
-    margin-top: 23rem !important;
+    border-radius: 12px !important;
+    margin-top: 26rem !important;
     position: relative;
-    right: 34rem;
-}
-.check-text {
-  font-size: 24px !important;
-  line-height: 36px !important;
-  font-family: "RobotoNormal, sans-serif" !important;
-  position: relative !important;
-  right: 1rem !important;
-  top: 1rem !important;
-}
-.h2-heading-paragraph-text {
-  font-family: "RobotoNormal, sans-serif" !important;
-  font-size: 15px !important;
-  line-height: 20.8px !important;
-  position: relative !important;
-  top: 1rem !important;
-  left: 2rem;
-  width: 23rem;
-}
-.e-challan {
-  position: relative !important;
-  right: 4rem !important;
-  top: 1rem !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  font-size: 24px !important;
-}
-.e-challan-paragraph-text {
-  font-family: "RobotoNormal, sans-serif" !important;
-  font-size: 15px !important;
-  line-height: 20.8px !important;
-  position: relative !important;
-  top: 1rem !important;
-  width: 23rem;
-  left: 2rem;
-}
-.read-more-button {
-  padding: 10px 20px;
-  background-color: darkorchid;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  top: -14rem;
-  left: 4rem;
-  width: 8rem;
-}
-.check-e-challan {
-  font-family: "RobotoBold, sans-serif" !important;
-  font-size: 24px !important;
-  top: 1rem;
-  position: relative;
-  left: 1rem;
-  width: 24rem;
-}
-.check-your-challan {
-  font-family: "RobotoNormal, sans-serif";
-  font-size: 15px;
-  line-height: 20.8px;
-  /* display: contents; */
-  position: relative;
-  left: 1rem;
-  top: 1rem;
-  width: 24rem;
-}
-.pay-e-challan {
-  position: relative !important;
-  right: 2rem !important;
-  top: 1rem !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  font-size: 24px !important;
-}
-.paragarph-pay-online {
-  font-family: "RobotoMedium, sans-serif";
-  font-size: 15px;
-  line-height: 20.8px;
-  position: relative;
-  top: 1rem;
-  left: 1rem;
-  width: 23rem;
-}
+    left: 1rem;
+    top: 0rem;
+  }
+  .check-text {
+    font-size: 24px !important;
+    line-height: 36px !important;
+    font-family: "RobotoNormal, sans-serif" !important;
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+  }
+  .h2-heading-paragraph-text {
+    font-family: "RobotoNormal, sans-serif" !important;
+    font-size: 15px !important;
+    line-height: 20.8px !important;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .e-challan {
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 24px !important;
+  }
+  .e-challan-paragraph-text {
+    font-family: "RobotoNormal, sans-serif" !important;
+    font-size: 15px !important;
+    line-height: 20.8px !important;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .read-more-button {
+    padding: 10px 20px;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 26%;
+    width: 35%;
+margin-top: 0rem !important;  }
+  .check-e-challan {
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 24px !important;
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+  }
+  .check-your-challan {
+    font-family: "RobotoNormal, sans-serif";
+    font-size: 15px;
+    line-height: 20.8px;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .pay-e-challan {
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 24px !important;
+  }
+  .paragarph-pay-online {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 20.8px;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
   .e-challan-question {
     position: relative !important;
-    right: 0rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 24px !important;
   }
@@ -996,15 +1084,18 @@ div#navbarSupportedContent {
     font-family: "RobotoMedium, sans-serif";
     font-size: 15px;
     line-height: 20.8px;
-    position: relative;
-    left: 1rem;
-    top: 1rem;
-    width: 23rem;
-}
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
   .penalties-and-fines {
     position: relative !important;
-    right: 6rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 24px !important;
   }
@@ -1012,32 +1103,37 @@ div#navbarSupportedContent {
     font-family: "RobotoMedium, sans-serif";
     font-size: 15px;
     line-height: 20.8px;
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    width: 24rem;
-}
-.advantage-challan-payment {
-  position: relative !important;
-  right: -0.6rem !important;
-  top: 1rem !important;
-  font-family: "RobotoBold, sans-serif" !important;
-  font-size: 24px !important;
-  width: 25rem;
-}
-.paragraph-advantage-e-challan {
-  font-family: "RobotoMedium, sans-serif";
-  font-size: 15px;
-  line-height: 20.8px;
-  position: relative;
-  left: 1rem;
-  top: 1rem;
-  width: 24rem;
-}
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .advantage-challan-payment {
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+    font-family: "RobotoBold, sans-serif" !important;
+    font-size: 24px !important;
+  }
+  .paragraph-advantage-e-challan {
+    font-family: "RobotoMedium, sans-serif";
+    font-size: 15px;
+    line-height: 20.8px;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
   .conclusion {
     position: relative !important;
-    right: 8rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 24px !important;
   }
@@ -1045,32 +1141,39 @@ div#navbarSupportedContent {
     font-family: "RobotoMedium, sans-serif";
     font-size: 15px;
     line-height: 20.8px;
-    position: relative;
-    left: 1rem;
-    top: 1rem;
-    width: 24rem;
-}
-.violations-and-penalties {
-  margin-top: -12rem !important;
-  font-size: 20px !important;
-  line-height: 32px !important;
-  font-family: " RobotoBold, sans-serif" !important;
-  position: relative !important;
-  right: 0rem !important;
-  width: 25rem;
-}
-.paragraph-traffic-violations {
-  font-family: "RobotoNormal, sans-serif";
-  font-size: 17px;
-  line-height: 20.8px;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .violations-and-penalties {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    font-family: " RobotoBold, sans-serif" !important;
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
+  }
+  .paragraph-traffic-violations {
+    font-family: "RobotoNormal, sans-serif";
+    font-size: 17px;
+    line-height: 20.8px;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin: 0px 0px !important;
+  }
   .offences-document {
     line-height: 24px !important;
     font-family: "RobotoMedium, sans-serif" !important;
     margin-top: 1rem !important;
-    margin-right: 6rem !important;
+    margin-right: 4rem !important;
     font-weight: bold !important;
   }
   .offences-table {
@@ -1078,15 +1181,15 @@ div#navbarSupportedContent {
     flex-direction: column !important;
     margin: auto !important;
     margin-top: 1rem !important;
-    width: 25rem;
-}
-.offense-related {
-  line-height: 24px !important;
-  font-family: "RobotoMedium, sans-serif" !important;
-  margin-top: 3rem !important;
-  margin-right: 14rem !important;
-  font-weight: bold !important;
-}
+    width: 98%;
+  }
+  .offense-related {
+    line-height: 24px !important;
+    font-family: "RobotoMedium, sans-serif" !important;
+    margin-top: 3rem !important;
+    margin-right: 14rem !important;
+    font-weight: bold !important;
+  }
   .offense-related-table {
     display: flex;
     flex-direction: column;
@@ -1095,15 +1198,16 @@ div#navbarSupportedContent {
     width: 25rem;
   }
   .view-more-button {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 10px 20px;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+    /* padding: 10px 20px; */
     background-color: darkorchid;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 18rem;
+    margin-left: 14rem;
+    /* display: flex; */
   }
   .check-challan {
     font-size: 24px !important;
@@ -1111,11 +1215,10 @@ div#navbarSupportedContent {
     font-family: "RobotoBold, sans-serif" !important;
     margin-left: 1rem;
     margin-top: 2rem;
-    width: 20rem;
-}
-.row {
-  width: 24rem ;
-}
+  }
+  /* .row {
+    width: 24rem;
+  } */
   .first-col-6 {
     display: flex !important;
     flex-direction: column !important;
@@ -1128,30 +1231,28 @@ div#navbarSupportedContent {
     border-radius: 20px !important;
   }
   .step-for-check-challan {
-    font-size: 17px !important;
+    font-size: 15px !important;
     line-height: 24px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-top: 3rem !important;
     margin-left: 0rem !important;
-    width: 23rem;
-}
-.paragraph-visit-app {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  padding-right: 7rem;
-  margin-top: 1rem;
-  width: 23rem;
-}
-.click-challan {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  padding-right: 13rem;
-  margin-top: 0rem;
-}
+  }
+  .paragraph-visit-app {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 5rem;
+    margin-top: 1rem;
+  }
+  .click-challan {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 12rem;
+    margin-top: 0rem;
+  }
   .enter-vehicle-number {
     font-size: 12px;
     font-style: normal;
@@ -1167,15 +1268,15 @@ div#navbarSupportedContent {
     line-height: 20px;
     padding-right: 1rem;
     margin-top: 0rem;
-}
-.get-e-challan-status {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  padding-right: 1rem;
-  margin-top: 0rem;
-}
+  }
+  .get-e-challan-status {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 1rem;
+    margin-top: 0rem;
+  }
   .first-box-image {
     display: contents;
   }
@@ -1191,28 +1292,21 @@ div#navbarSupportedContent {
     border-radius: 20px !important;
   }
   .parivahan-website {
-    font-size: 17px !important;
-    line-height: 24px !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-top: 3rem !important;
-    margin-right: -1rem !important;
-}
-.visit-parivahan-website {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  padding-right: -1rem;
-  margin-top: 1rem;
-}
-.click-get-challan-details {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  margin-top: 0rem;
-  padding-right: 3rem;
-}
+    margin-left: 1rem !important;
+  }
+
+  .click-get-challan-details {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 0rem;
+    padding-right: 3rem;
+  }
   .enter-details-captcha {
     font-size: 12px;
     font-style: normal;
@@ -1255,7 +1349,7 @@ div#navbarSupportedContent {
     margin-top: -4rem;
     margin-left: 0rem;
   }
- 
+
   div#rc-tabs-1-tab-1 {
     width: 7rem !important;
     font-size: 17px !important;
@@ -1281,35 +1375,33 @@ div#navbarSupportedContent {
   }
   .open-challanDekho-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .open-challan-dekho {
-    font-size: 18px !important;
-    line-height: 32px !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 2rem !important;
+    margin-left: -3rem !important;
     font-weight: bold !important;
-    width: 17rem !important;
-    margin-top: -3rem;
+    margin-top: -2rem;
   }
   .paragraph-challan-dekho {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 0rem;
-    width: 21rem;
-}
+  }
   .vehicle-number-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 2rem;
     width: 4rem;
   }
   .vehicle-number {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-left: -1rem !important;
@@ -1321,158 +1413,155 @@ div#navbarSupportedContent {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    width: 21rem;
+    width: 78%;
     margin-top: 0rem;
-    margin-left: 4rem;
-}
+    margin-left: 5rem;
+  }
   .check-challan-status-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .e-challan-status {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 21rem !important;
+    margin-left: 19rem !important;
     font-weight: bold !important;
-    width: 19rem !important;
+    width: 100% !important;
     margin-top: -2rem;
-}
-.paragraph-challan-status {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: "RobotoNormal, sans-serif";
-  width: 20rem;
-  margin-top: 0rem;
-  margin-left: 4rem;
-}
+  }
+  .paragraph-challan-status {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    width: 77%;
+    margin-top: 0rem;
+    margin-left: 5rem;
+  }
   .pending-challan-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .pending-challan {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     font-weight: bold !important;
     margin-top: -2rem;
-    margin-left: -1rem;
-}
-.paragraph-pending-challan {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: "RobotoNormal, sans-serif";
-  margin-top: 0rem;
-  margin-left: 2rem;
-}
+    margin-left: 0rem;
+  }
+  .paragraph-pending-challan {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-top: 0rem;
+    margin-left: 5rem;
+  }
   .recieve-confirmation-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .recieve-confirmation {
-    font-size: 18px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     font-weight: bold !important;
     margin-top: -2rem;
     margin-left: 4rem;
-}
-.paragraph-recieve-confirmation {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: "RobotoNormal, sans-serif";
-  margin-top: 0rem;
-  width: 21rem;
-  margin-left: 4rem;
-}
+  }
+  .paragraph-recieve-confirmation {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-top: 0rem;
+    width: 86%;
+    margin-left: 3rem;
+  }
   .visit-parivahan-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .visit-parivahan {
-    font-size: 19px !important;
-    line-height: 32px !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 0rem !important;
+    margin-left: -1rem !important;
     font-weight: bold !important;
-    width: 25rem !important;
     margin-top: -1rem;
-}
+    width: 96%;
+  }
   .paragraph-visit-parivahan {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
     margin-left: 4rem;
     margin-top: 0rem;
-    width: 20rem;
-}
+  }
+
   .get-challan-details-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 0rem;
     width: 3rem;
   }
   .get-challan-details {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 0rem !important;
+    margin-left: -1rem !important;
     font-weight: bold !important;
-    width: 24rem !important;
+    width: 100% !important;
     margin-top: -4rem;
-}
+  }
   .paragraph-get-challan-details {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-top: 0rem;
-    width: 20rem;
-}
+  }
   .details-captcha-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .details-captcha {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 0rem !important;
+    margin-left: -1rem !important;
     font-weight: bold !important;
-    width: 23rem !important;
+    width: 100% !important;
     margin-top: -3rem;
-}
-.paragraph-details-captcha {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: "RobotoNormal, sans-serif";
-  margin-left: 2rem;
-  margin-top: 0rem;
-  width: 20rem;
-}
+  }
+  .paragraph-details-captcha {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-left: 2rem;
+    margin-top: 0rem;
+  }
   .select-e-challan-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .select-e-challan {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 0rem !important;
+    margin-left: -1rem !important;
     font-weight: bold !important;
-    /* width: 21rem !important; */
     margin-top: -2rem;
   }
   .paragraph-select-e-challan {
@@ -1481,62 +1570,59 @@ div#navbarSupportedContent {
     font-family: "RobotoNormal, sans-serif";
     margin-left: 3rem;
     margin-top: 0rem;
-    width: 20rem;
-}
+  }
   .proceed-payment-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .proceed-payment {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-left: -1rem !important;
     font-weight: bold !important;
-    width: 25rem !important;
+    width: 100% !important;
     margin-top: -2rem;
-}
-.paragraph-proceed-payment {
-  font-size: 13px;
-  line-height: 20px;
-  font-family: "RobotoNormal, sans-serif";
-  margin-left: 4rem;
-  margin-top: 0rem;
-  width: 21rem;
-}
+  }
+  .paragraph-proceed-payment {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "RobotoNormal, sans-serif";
+    margin-left: 4rem;
+    margin-top: 0rem;
+  }
   .visit-traffic-police-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .visit-traffic-police {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: -2rem !important;
+    margin-left: -1rem !important;
     font-weight: bold !important;
-    /* width: 26rem !important; */
+    width: 100% !important;
     margin-top: -2rem;
   }
   .paragraph-visit-traffic-police {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-top: 0rem;
-    width: 20rem;
-}
+  }
   .valid-documents-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .valid-documents {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-left: -1rem !important;
@@ -1548,21 +1634,20 @@ div#navbarSupportedContent {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-top: 0rem;
-    width: 21rem;
-}
+  }
   .pay-fine-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .pay-fine {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 2rem !important;
+    margin-left: 3rem !important;
     font-weight: bold !important;
     /* width: 9rem !important; */
     margin-top: -2rem;
@@ -1571,18 +1656,17 @@ div#navbarSupportedContent {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: -3rem;
+    margin-left: -6rem;
     margin-top: 0rem;
-    width: 20rem;
-}
+  }
   .get-a-receipt-image {
     position: relative;
-    right: 11rem;
+    right: 9rem;
     top: 1rem;
     width: 3rem;
   }
   .get-a-receipt {
-    font-size: 19px !important;
+    font-size: 15px !important;
     line-height: 32px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-left: 1rem !important;
@@ -1594,129 +1678,147 @@ div#navbarSupportedContent {
     font-size: 13px;
     line-height: 20px;
     font-family: "RobotoNormal, sans-serif";
-    margin-left: -7rem;
+    margin-left: -3rem;
     margin-top: 0rem;
-}
+  }
   .footer-park-text {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 1rem;
     background: darkorchid;
-    height: 10rem;
-    padding-right: 3rem;
+    height: 25vh;
     color: white;
-    padding-top: 1rem;
+    padding-top: 0.6rem;
+    font-size: 13px;
+    text-align: center;
   }
   .footer-terms-condition {
-    font-size: 12px;
+    font-size: 8px;
     line-height: 5px;
-    margin-left: -2rem;
+    margin-top: -30px;
     color: white;
-    height: 25rem;
-}
-
-
+    text-align: center;
+  }
 }
 
 /* Tablet (portrait) */
-@media (min-width: 480px) and (max-width: 768px) {
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-logo-image {
+    width: 14rem;
+    position: relative;
+    top: -10rem;
+    margin-left: 2rem;
+  }
+  .input-error {
+    border-color: red;
+  }
+  .error-text {
+    color: red;
+    font-size: 0.9em;
+    position: relative;
+    left: -14rem;
+    top: -8rem;
+  }
   .ant-tabs-tab {
     width: 104px;
-}
-element.style {
-  width: 10rem;
-  transform: translate(-80px, 0px);
-}
+  }
+  element.style {
+    width: 10rem;
+    transform: translate(-80px, 0px);
+  }
   .home-text {
     position: relative;
     top: -17rem;
-    left: 5rem;
-    font-size: 45px;
+    left: -5rem;
+    font-size: 32px;
     font-family: "RobotoNormal, sans-serif";
-  }
+}
   .image-home {
     position: relative;
     left: 207px;
-    top: 12rem;
+    top: 4rem;
     width: 100%;
   }
   .checkbox-text {
     position: relative;
-    left: -4rem;
-    top: -11rem;
-    font-size: 18px;
+    left: -5rem;
+    top: -17rem;
+    font-size: 16px;
     font-family: "RobotoNormal, sans-serif";
-  }
+}
   .easily-pay {
     position: relative;
-    top: -11rem;
-    left: -4.5rem;
-    font-family: RobotoNormal, sans-serif;
-    font-size: 18px;
+    left: -6rem;
+    top: -17rem;
+    font-size: 16px;
+    font-family: "RobotoNormal, sans-serif";
   }
   .avoid-court {
     position: relative;
-    left: -3.5rem;
-    top: -11rem;
+    left: -4.5rem;
+    top: -17rem;
+    font-size: 16px;
     font-family: "RobotoNormal, sans-serif";
-    font-size: 18px;
   }
   .enter-vehicle-text {
-    font-size: 26px;
-    line-height: 32px;
-    font-family: "RobotoBold, sans-serif";
-    position: relative;
-    top: 22rem;
-    width: 20rem;
-    left: -18rem;
+    font-size: 26px !important;
+    line-height: 32px !important;
+    font-family: "RobotoBold, sans-serif" !important;
+    position: relative !important;
+    top: 23rem !important;
+    width: 31% !important;
+    left: 5rem !important;
   }
   .input {
     display: flex !important;
     align-items: center !important;
-    width: 229px !important;
+    width: 34%;
     height: 54px !important;
     background: #eaeaea !important;
-    border-radius: 20px !important;
-    margin-top: 32rem !important;
+    border-radius: 12px !important;
+    margin-top: 34rem !important;
     position: relative;
-    right: 41rem;
-    top: -8rem;
-  }
-  .view-challan-button {
-    line-height: 24px;
-    font-family: "RobotoMedium, sans-serif";
-    color: white;
-    background: darkorchid;
-    font-size: 24px;
-    width: 10rem;
-    border-radius: 20px;
-    height: 3rem;
-    position: relative;
-    left: -41rem;
-    top: -8rem;
-  }
-  .check-text {
-    font-size: 26px !important;
-    line-height: 36px !important;
-    font-family: "RobotoNormal, sans-serif" !important;
-    position: relative !important;
-    right: 8rem !important;
-    top: -6rem !important;
-  }
+    left: 5rem;
+    top: -10rem;
+}
+.view-challan-button {
+  line-height: 24px;
+  font-family: "RobotoMedium, sans-serif";
+  color: white;
+  background: darkorchid;
+  font-size: 24px;
+  width: 28%;
+  border-radius: 20px;
+  /* height: 3rem; */
+  position: relative;
+  left: -11rem;
+  top: -171px;
+}
+.check-text {
+  font-size: 26px !important;
+  line-height: 36px !important;
+  font-family: "RobotoNormal, sans-serif" !important;
+  position: relative !important;
+  left: 0rem !important;
+  top: 0rem !important;
+  text-align: start;
+}
   .h2-heading-paragraph-text {
     font-family: "RobotoNormal, sans-serif" !important;
     font-size: 18px;
     line-height: 27.8px !important;
     position: relative !important;
-    top: -6rem !important;
-    width: 44rem;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .e-challan {
     position: relative !important;
-    right: 11rem !important;
-    top: -5rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1736,8 +1838,11 @@ element.style {
     font-size: 18px;
     line-height: 27.8px !important;
     position: relative !important;
-    top: -4rem !important;
-    width: 44rem;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .read-more-button {
     /* padding: 10px 20px; */
@@ -1752,7 +1857,10 @@ element.style {
     width: 8rem;
   }
   .check-e-challan {
-    display: contents;
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1760,12 +1868,18 @@ element.style {
     font-family: "RobotoNormal, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    display: contents;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .pay-e-challan {
     position: relative !important;
-    right: 8rem !important;
-    top: -1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1773,15 +1887,18 @@ element.style {
     font-family: "RobotoMedium, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    position: relative;
-    top: 0rem;
-    left: 4rem;
-    width: 44rem;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .e-challan-question {
     position: relative !important;
-    right: 6rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1789,15 +1906,18 @@ element.style {
     font-family: "RobotoMedium, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-    width: 44rem;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .penalties-and-fines {
     position: relative !important;
-    right: 12rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1805,15 +1925,18 @@ element.style {
     font-family: "RobotoMedium, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    position: relative;
-    top: 1rem;
-    left: 2rem;
-    width: 44rem;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .advantage-challan-payment {
     position: relative !important;
-    right: 5rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1821,15 +1944,18 @@ element.style {
     font-family: "RobotoMedium, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    position: relative;
-    right: -3rem;
-    top: 1rem;
-    width: 44rem;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .conclusion {
     position: relative !important;
-    right: 14rem !important;
-    top: 1rem !important;
+    left: 0rem !important;
+    top: 0rem !important;
+    text-align: start;
     font-family: "RobotoBold, sans-serif" !important;
     font-size: 26px !important;
   }
@@ -1837,10 +1963,12 @@ element.style {
     font-family: "RobotoMedium, sans-serif";
     font-size: 18px;
     line-height: 27.8px;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-    width: 44rem;
+    position: relative !important;
+    top: 0rem !important;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .violations-and-penalties {
     margin-top: -15rem !important;
@@ -1979,7 +2107,8 @@ element.style {
     line-height: 24px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-top: 3rem !important;
-    margin-right: 1rem !important;
+    position: relative;
+        left: 2rem;
   }
   .visit-parivahan-website {
     font-size: 22px;
@@ -2386,831 +2515,32 @@ element.style {
     width: 17rem;
   }
   .footer-park-text {
-    display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important;
-    background: darkorchid !important;
-    height: 10rem !important;
-    padding-right: 0rem !important;
-    color: white !important;
-    padding-top: 1rem !important;
-  }
-
-  .footer-terms-condition {
-    font-size: 12px;
-    line-height: 24px;
-    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: darkorchid;
+    height: 25vh;
     color: white;
-    height: 31rem;
+    padding-top: 0.6rem;
+    font-size: 13px;
+    text-align: center;
   }
+  .footer-terms-condition {
+    font-size: 9px;
+    line-height: 9px;
+    margin-top: -35px;
+    color: white;
+    text-align: center;
+  }
+  .text {
+    position: relative;
+    top: -6rem;
 }
-@media (min-width: 769px) and (max-width: 1024px) {
-  .row {
-    width: 77rem;
-  }
-  .studio-display-image {
-    margin-right: 3rem;
-    display: contents;
-  }
-  .first-box-image {
-    display: contents;
-  }
-  .home-text {
-    position: relative;
-    top: -23rem;
-    left: -7rem;
-    font-size: 45px;
-    font-family: "RobotoNormal, sans-serif";
-  }
-  .image-home {
-    position: relative;
-    left: 16rem;
-    top: 2rem;
-    width: 100%;
-  }
-  .checkbox-text {
-    position: relative;
-    left: -8rem;
-    top: -22rem;
-    font-size: 22px;
-    font-family: "RobotoNormal, sans-serif";
-  }
-  .easily-pay {
-    position: relative;
-    top: -22rem;
-    left: -8.8rem;
-    font-family: RobotoNormal, sans-serif;
-    font-size: 22px;
-  }
-  .avoid-court {
-    position: relative;
-    left: -7.5rem;
-    top: -22rem;
-    font-family: "RobotoNormal, sans-serif";
-    font-size: 22px;
-  }
-  .enter-vehicle-text {
-    font-size: 35px;
-    line-height: 32px;
-    font-family: "RobotoBold, sans-serif";
-    position: relative;
-    top: 18rem;
-    width: 20rem;
-    left: -22rem;
-  }
-  .input {
-    display: flex !important;
-    align-items: center !important;
-    width: 100%;
-    height: 54px !important;
-    background: #eaeaea !important;
-    border-radius: 20px !important;
-    /* margin-top: 32rem !important; */
-    position: relative;
-    right: 46rem;
-    top: 11rem;
-  }
-  .view-challan-button {
-    line-height: 24px;
-    font-family: "RobotoMedium, sans-serif";
-    color: white;
-    background: darkorchid;
-    font-size: 24px;
-    width: 100%;
-    border-radius: 20px;
-    height: 3rem;
-    position: relative;
-    left: -47rem;
-    top: 12rem;
-  }
-  .check-text {
-    font-size: 27px !important;
-    line-height: 36px !important;
-    font-family: "RobotoNormal, sans-serif" !important;
-    position: relative !important;
-    right: 18rem !important;
-    top: 14rem !important;
-  }
-  .h2-heading-paragraph-text {
-    font-family: "RobotoNormal, sans-serif" !important;
-    font-size: 20px;
-    line-height: 27.8px !important;
-    position: relative !important;
-    top: 14rem !important;
-    width: 60rem;
-  }
-  .e-challan {
-    position: relative !important;
-    right: 21rem !important;
-    top: 13rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 26px !important;
-  }
-  .e-challan-paragraph-text {
-    font-family: "RobotoNormal, sans-serif";
-    font-size: 20px;
-    line-height: 28.8px;
-    position: relative;
-    top: 13rem;
-    width: 60rem;
-  }
-  .read-more-button {
-    /* padding: 10px 20px; */
-    background-color: darkorchid;
-    color: white;
-    /* border: none; */
-    border-radius: 5px;
-    cursor: pointer;
-    position: relative;
-    top: -1rem;
-    right: -19rem;
-    width: 8rem;
-  }
-  .check-e-challan {
-    position: relative;
-    right: 14rem;
-    top: 13rem;
-    font-family: "RobotoBold, sans-serif";
-    font-size: 30px;
-  }
-  .check-your-challan {
-    font-family: "RobotoNormal, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    /* display: contents; */
-    left: 3rem;
-    top: 13rem;
-    width: 60rem;
-  }
-  .pay-e-challan {
-    position: relative !important;
-    right: 18rem !important;
-    top: 13rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 27px !important;
-  }
-  .paragarph-pay-online {
-    font-family: "RobotoMedium, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    position: relative;
-    top: 13rem;
-    left: 3rem;
-    width: 60rem;
-  }
-  .e-challan-question {
-    position: relative !important;
-    right: 16rem !important;
-    top: 13rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 27px !important;
-  }
-  .paragraph-e-challan-question {
-    font-family: "RobotoMedium, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    position: relative;
-    left: 4rem;
-    top: 13rem;
-    width: 60rem;
-  }
-  .penalties-and-fines {
-    position: relative !important;
-    right: 21rem !important;
-    top: 13rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 27px !important;
-  }
-  .paragraph-penalties-and-fines {
-    font-family: "RobotoMedium, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    position: relative;
-    top: 13rem;
-    left: 4rem;
-    width: 60rem;
-  }
-  .advantage-challan-payment {
-    position: relative !important;
-    right: 14rem !important;
-    top: 13rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 27px !important;
-  }
-  .paragraph-advantage-e-challan {
-    font-family: "RobotoMedium, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    position: relative;
-    right: -3rem;
-    top: 13rem;
-    width: 60rem;
-  }
-  .conclusion {
-    position: relative !important;
-    right: 23rem !important;
-    top: 12rem !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    font-size: 27px !important;
-  }
-  .paragraph-conclusion {
-    font-family: "RobotoMedium, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    position: relative;
-    left: 4rem;
-    top: 12rem;
-    width: 60rem;
-  }
-  .violations-and-penalties {
-    margin-top: 0rem !important;
-    font-size: 27px !important;
-    line-height: 32px !important;
-    font-family: " RobotoBold, sans-serif" !important;
-    position: relative !important;
-    right: 13rem !important;
-  }
-  .paragraph-traffic-violations {
-    font-family: "RobotoNormal, sans-serif";
-    font-size: 20px;
-    line-height: 27.8px;
-    margin-left: 2rem;
-    margin-top: 1rem;
-  }
-  .offences-document {
-    line-height: 26px !important;
-    font-family: "RobotoMedium, sans-serif" !important;
-    margin-top: 2rem !important;
-    margin-right: 29rem !important;
-    font-weight: bold !important;
-  }
-  .offences-table {
-    display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important;
-    margin-top: 2rem !important;
-    width: 100% !important;
-  }
-  .view-more-button {
-    margin-top: 1rem;
-    padding: 10px 20px;
-    background-color: darkorchid;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 30rem;
-  }
-  .offense-related {
-    line-height: 24px !important;
-    font-family: "RobotoMedium, sans-serif" !important;
-    margin-top: 3rem !important;
-    margin-right: 41rem !important;
-    font-weight: bold !important;
-  }
-  .offense-related-table {
+  ul.nav.nav-tabs {
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 2rem;
-    width: 100%;
-  }
-  .check-challan {
-    font-size: 27px !important;
-    line-height: 36px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-right: 2rem;
-    margin-top: -10rem;
-  }
-  .first-col-6 {
-    display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important;
-    margin-top: 2rem !important;
-    width: 450px !important;
-    /* height: 850px !important; */
-    background: #e1e8ed !important;
-    margin-left: 17rem !important;
-    border-radius: 20px !important;
-  }
-  .container,
-  .container-md,
-  .container-sm {
-    max-width: 1024px !important;
-  }
-  .step-for-check-challan {
-    font-size: 18px !important;
-    line-height: 20px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-top: 3rem !important;
-    margin-right: 2rem !important;
-  }
-  .paragraph-visit-app {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 8rem;
-    margin-top: 1rem;
-  }
-  .click-challan {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 16rem;
-    margin-top: 0rem;
-  }
-  .enter-vehicle-number {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 1rem;
-    margin-top: 0rem;
-  }
-  .find-update-button {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 2rem;
-    margin-top: 0rem;
-  }
-  .get-e-challan-status {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 2rem;
-    margin-top: 0rem;
-  }
-
-  .click-get-challan-details {
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 2rem;
-    margin-top: 0rem;
-  }
-  .second-col-6 {
-    display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important;
-    margin-top: 2rem !important;
-    width: 450px !important;
-    /* height: 877px !important; */
-    background: #e1e8ed !important;
-    border-radius: 20px !important;
-  }
-  .parivahan-website {
-    font-size: 20px !important;
-    line-height: 24px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-top: 3rem !important;
-    margin-right: -1rem !important;
-  }
-  .visit-parivahan-website {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 0rem;
-    margin-top: 1rem;
-  }
-  .click-get-challan-details {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    margin-right: -1rem;
-    margin-top: 0rem;
-  }
-  .enter-details-captcha {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 0rem;
-    margin-top: 0rem;
-  }
-  .select-the-e-challan {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 1rem;
-    margin-top: 0rem;
-    /* width: 51rem; */
-  }
-  .proceed-the-payment {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    padding-right: 2rem;
-    margin-top: 1rem;
-  }
-
-  .how-can-pay-challan {
-    font-size: 27px !important;
-    line-height: 36px !important;
-    font-family: " RobotoBold, sans-serif" !important;
-    position: relative !important;
-    top: 4rem !important;
-    right: 17rem !important;
-  }
-  .paragraph-pay-online-offline {
-    font-size: 17px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    margin-top: 4rem;
-    margin-left: 6rem;
-  }
-  div#rc-tabs-1-tab-1 {
-    width: 22rem !important;
-    font-size: 25px !important;
-    line-height: 2px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    color: black !important;
-    margin-left: 14rem;
-  }
-  div#rc-tabs-1-tab-2 {
-    width: 22rem !important;
-    font-size: 25px !important;
-    line-height: 24px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    color: black !important;
-    margin-left: -1rem;
-  }
-  div#rc-tabs-1-tab-3 {
-    width: 22rem !important;
-    font-size: 25px !important;
-    line-height: 24px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    color: black !important;
-  }
-  .open-challanDekho-image {
-    position: relative;
-    right: 27rem;
-    top: 1rem;
-    width: 5rem;
-  }
-  .open-challan-dekho {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 9rem !important;
-    font-weight: bold !important;
-    width: 18rem !important;
-    margin-top: -5rem;
-  }
-  .paragraph-challan-dekho {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 81rem;
-    position: relative;
-    left: 17rem;
-    margin-top: 0rem;
-  }
-  .vehicle-number-image {
-    position: relative;
-    right: 27rem;
-    top: 4rem;
-    width: 6rem;
-  }
-  .vehicle-number {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 6rem !important;
-    font-weight: bold !important;
-    /* width: 22rem !important; */
-    margin-top: -1rem;
-  }
-  .paragraph-vehicle-number {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 100%;
-    margin-top: 0rem;
-    margin-left: -6rem;
-    /* display: contents; */
-  }
-  .check-challan-status-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .e-challan-status {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    /* margin-left: -7rem !important; */
-    font-weight: bold !important;
-    /* width: 62rem !important; */
-    margin-top: -2rem;
-    position: relative;
-    left: -12rem;
-  }
-  .paragraph-challan-status {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 100%;
-    margin-left: -8rem;
-    margin-top: 1rem;
-  }
-  .pending-challan-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .pending-challan {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: -21rem !important;
-    font-weight: bold !important;
-    /* width: 32rem !important; */
-    margin-top: -3rem;
-    /* display: contents; */
-  }
-  .paragraph-pending-challan {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 100%;
-    margin-top: 1rem;
-    margin-left: -9rem;
-  }
-  .recieve-confirmation-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .recieve-confirmation {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: -14rem !important;
-    font-weight: bold !important;
-    /* width: 32rem !important; */
-    margin-top: -3rem;
-    /* display: contents; */
-  }
-  .paragraph-recieve-confirmation {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 100%;
-    margin-top: 1rem;
-    display: contents;
-  }
-  .visit-parivahan-image {
-    position: relative;
-    right: 27rem;
-    top: 1rem;
-    width: 5rem;
-  }
-  .visit-parivahan {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 3rem !important;
-    font-weight: bold !important;
-    /* width: 28rem !important; */
-    margin-top: -2rem;
-  }
-  .paragraph-visit-parivahan {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    margin-left: -21rem;
-    margin-top: 0rem;
-  }
-  .get-challan-details-image {
-    position: relative;
-    right: 27rem;
-    top: 1rem;
-    width: 5rem;
-  }
-  .get-challan-details {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 3rem !important;
-    font-weight: bold !important;
-    /* width: 29rem !important; */
-    margin-top: -5rem;
-  }
-  .paragraph-get-challan-details {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    margin-top: 0rem;
-    width: 60rem;
-    right: -16rem;
-    position: relative;
-  }
-  .details-captcha-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 4rem;
-  }
-  .details-captcha {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 3rem !important;
-    font-weight: bold !important;
-    /* width: 27rem !important; */
-    margin-top: -3rem;
-  }
-  .paragraph-details-captcha {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 60rem;
-    position: relative;
-    left: 27rem;
-    margin-top: 0rem;
-  }
-  .select-e-challan-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .select-e-challan {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 4rem !important;
-    font-weight: bold !important;
-    /* width: 21rem !important; */
-    margin-top: -3rem;
-  }
-  .paragraph-select-e-challan {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 60rem;
-    position: relative;
-    left: 26rem;
-    margin-top: 0rem;
-  }
-  .proceed-payment-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .proceed-payment {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 3rem !important;
-    font-weight: bold !important;
-    /* width: 27rem !important; */
-    margin-top: -3rem;
-  }
-  .paragraph-proceed-payment {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 60rem;
-    position: relative;
-    left: 17rem;
-    margin-top: 0rem;
-  }
-  .visit-traffic-police-image {
-    position: relative;
-    right: 27rem;
-    top: 1rem;
-    width: 5rem;
-  }
-  .visit-traffic-police {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 3rem !important;
-    font-weight: bold !important;
-    /* width: 26rem !important; */
-    margin-top: -4rem;
-  }
-  .paragraph-visit-traffic-police {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 60rem;
-    position: relative;
-    left: 27rem;
-    margin-top: 0rem;
-  }
-  .valid-documents-image {
-    position: relative;
-    right: 27rem;
-    top: 1rem;
-    width: 4rem;
-  }
-  .valid-documents {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 4rem !important;
-    font-weight: bold !important;
-    /* width: 23rem !important; */
-    margin-top: -4rem;
-  }
-  .paragraph-valid-documents {
-    font-size: 18px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    margin-left: 9rem;
-    margin-top: 1rem;
-    width: 31rem;
-  }
-  .pay-fine-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .pay-fine {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 7rem !important;
-    font-weight: bold !important;
-    /* width: 9rem !important; */
-    margin-top: -3rem;
-  }
-  .paragraph-pay-fine {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    width: 60rem;
-    position: relative;
-    left: 36rem;
-    margin-top: 0rem;
-  }
-  .get-a-receipt-image {
-    position: relative;
-    right: 27rem;
-    top: 2rem;
-    width: 5rem;
-  }
-  .get-a-receipt {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    font-family: "RobotoBold, sans-serif" !important;
-    margin-left: 6rem !important;
-    font-weight: bold !important;
-    /* width: 13rem !important; */
-    margin-top: -4rem;
-  }
-  .paragraph-get-a-receipt {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "RobotoNormal, sans-serif";
-    margin-top: 0rem;
-    width: 60rem;
-    position: relative;
-    left: -15rem;
-  }
-  .footer-park-text {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 1rem;
-    background: darkorchid;
-    height: 10rem;
-    padding-right: 19rem;
-    color: white;
-    padding-top: 1rem;
-  }
-  .footer-terms-condition {
-    font-size: 12px;
-    line-height: 24px;
-    margin-left: -20rem;
-    color: white;
-  }
-
-  .ant-tabs.ant-tabs-top.css-dev-only-do-not-override-qnu6hi {
-    margin-left: 2rem !important;
-  }
-  .ant-tabs-nav-operations {
-    gap: 100px;
-    margin-left: -20rem !important;
-  }
-  .ant-tabs-nav {
-    left: -20rem;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+    margin-top: 10rem;
+    width: 80%;
   }
 }

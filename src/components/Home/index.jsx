@@ -3,8 +3,10 @@ import MainLayout from "../MainLayout";
 import TabComponent from "../Tabs/index";
 import Faq from "../Faq";
 import Boxes from "../Box/index";
+import { useForm } from "react-hook-form";
 
 const Home = () => {
+  const { handleSubmit } = useForm();
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleReadMore = () => setIsExpanded(!isExpanded);
@@ -12,6 +14,25 @@ const Home = () => {
   const [isExpanded1, setIsExpanded1] = useState(false);
 
   const toggleReadMore1 = () => setIsExpanded1(!isExpanded1);
+
+  const [isValid, setIsValid] = useState(true);
+  const [vehicleNumber, setVehicleNumber] = useState("");
+
+  const onSubmit = async (e) => {
+    
+    // e.preventDefault();
+    const vehiclePattern = /^[A-Z]{2}[0-9]{1,2}[A-Z]{1,2}[0-9]{4}$/;
+
+    if (vehiclePattern.test(vehicleNumber)) {
+      console.log("Vehicle number is valid!");
+      setIsValid(true);
+    } else {
+      console.log("Please enter a valid vehicle number (e.g., MH12AB1234).");
+      setIsValid(false);
+    }
+    setVehicleNumber("")
+   
+  };
 
   return (
     <MainLayout>
@@ -61,9 +82,23 @@ const Home = () => {
       </div>
 
       <div className="col-3 d-flex justify-content-between">
-        <form>
+        <form onSubmit={handleSubmit(onSubmit)}>
           <p className="enter-vehicle-text">Enter Vehicle Number</p>
-          <input class="input" type="text" />
+          {/* <input class="input" type="text" /> */}
+          <input
+            className={`input ${!isValid ? "input-error" : ""}`}
+            type="text"
+            name = "vehicle"
+            value={vehicleNumber}
+            onChange={(e) => setVehicleNumber(e.target.value.toUpperCase())}
+            required
+            placeholder=" MH12AB1234"
+          />
+          {!isValid && (
+            <span className="error-text">
+              Invalid format. Enter a valid vehicle number.
+            </span>
+          )}
           <div className="view-challan">
             <button className="view-challan-button" type="submit">
               View Challan
@@ -71,161 +106,166 @@ const Home = () => {
           </div>
         </form>
       </div>
-<div className="text">
-      <div className="check-pay-text">
-        <div className="h2-heading-text">
-          <h2 className="check-text">Check & Pay E-Challan Online</h2>
-        </div>
-        <div className="h2-heading-paragraph-text">
-          <p>
-            In the digital age, managing traffic challans has become an easy and
-            simple process, thanks to e-challan digital traffic systems. These
-            electronic challans, or e-challans, are not just a leap towards
-            modern governance but also a convenient way for citizens to handle
-            their vehicle fines.
-          </p>
-        </div>
-      </div>
-      <div className="e-challan-text">
-        <div className="h2-heading-second-text">
-          <h2 className="e-challan">What is an E-Challan?</h2>
-        </div>
-        <div className="e-challan-paragraph-text">
-          <p>
-            An e-challan is a digital citation issued by traffic authorities for
-            violations of road rules. Replacing traditional paper challans,
-            these electronic fines are directly sent to the violator's mobile
-            device or email. The system is integrated with a centralized
-            database, enhancing transparency and efficiency. Benefits include
-            quick processing, easy tracking, and a reduced chance of manual
-            errors, making it a cornerstone of online traffic challan
-            management.
-          </p>
-        </div>
-      </div>
-      {isExpanded && (
-        <>
-          <div className="check-e-challan-online">
-            <div className="h2-heading-check-challan">
-              <h2 className="check-e-challan">
-                How to Check Your E-Challan Online
-              </h2>
-            </div>
-            <div className="check-your-challan">
-              <p>
-                Checking your e-challan online is a straightforward process:
-                1.Visit the Official Portal: Navigate to the designated
-                government e-challan portal. 2. Enter Vehicle Details: Input
-                your vehicle's registration number to check challan on vehicle.
-                3. View Challan Details: The website will display all the
-                e-challans linked to your vehicle. 4. Review Challan
-                Information: Ensure that the details of the violation, date, and
-                fine amount are correct.
-              </p>
-            </div>
+      <div className="text">
+        <div className="check-pay-text">
+          <div className="h2-heading-text">
+            <h2 className="check-text">Check & Pay E-Challan Online</h2>
           </div>
-          <div className="paying-e-challan-online">
-            <div className="h2-heading-pay-online">
-              <h2 className="pay-e-challan">Paying Your E-Challan-Online</h2>
-            </div>
-            <div className="paragarph-pay-online">
-              <p>
-                Once you've checked your e-challan, the next step is to pay it:
-                1. Select the Challan to Pay: Choose the e-challan you wish to
-                settle.2. Payment Gateway: You'll be redirected to a secure
-                payment gateway. 3.Choose Payment Method: Opt for a convenient
-                payment method - credit/debit card, net banking, or digital
-                wallets. 4. Complete the Transaction: Follow the instructions to
-                finalize your payment.5. Receive Confirmation: A confirmation
-                with a transaction ID will be provided for your records.
-              </p>
-            </div>
+          <div className="h2-heading-paragraph-text">
+            <p>
+              In the digital age, managing traffic challans has become an easy
+              and simple process, thanks to e-challan digital traffic systems.
+              These electronic challans, or e-challans, are not just a leap
+              towards modern governance but also a convenient way for citizens
+              to handle their vehicle fines.
+            </p>
           </div>
-          <div className="common-question-e-challan">
-            <div className="h2-heading-e-challan-question">
-              <h2 className="e-challan-question">
-                Common Question About E-Challans
-              </h2>
-            </div>
-            <div className="paragraph-e-challan-question">
-              <p>
-                What if I don't pay the challan? Non-payment can lead to legal
-                consequences, including additional fines. How secure is online
-                challan payment? Payments are made through secure gateways,
-                ensuring safety. Can I contest a challan I believe is incorrect?
-                Yes, you can raise disputes by contacting the traffic
-                authority's helpdesk with relevant proofs.
-              </p>
-            </div>
+        </div>
+        <div className="e-challan-text">
+          <div className="h2-heading-second-text">
+            <h2 className="e-challan">What is an E-Challan?</h2>
           </div>
-          <div className="penalties-fines">
-            <div className="h2-heading-penalties-fines">
-              <h2
-                className="penalties-and-fines
+          <div className="e-challan-paragraph-text">
+            <p>
+              An e-challan is a digital citation issued by traffic authorities
+              for violations of road rules. Replacing traditional paper
+              challans, these electronic fines are directly sent to the
+              violator's mobile device or email. The system is integrated with a
+              centralized database, enhancing transparency and efficiency.
+              Benefits include quick processing, easy tracking, and a reduced
+              chance of manual errors, making it a cornerstone of online traffic
+              challan management.
+            </p>
+          </div>
+        </div>
+        {isExpanded && (
+          <>
+            <div className="check-e-challan-online">
+              <div className="h2-heading-check-challan">
+                <h2 className="check-e-challan">
+                  How to Check Your E-Challan Online
+                </h2>
+              </div>
+              <div className="check-your-challan">
+                <p>
+                  Checking your e-challan online is a straightforward process:
+                  1.Visit the Official Portal: Navigate to the designated
+                  government e-challan portal. 2. Enter Vehicle Details: Input
+                  your vehicle's registration number to check challan on
+                  vehicle. 3. View Challan Details: The website will display all
+                  the e-challans linked to your vehicle. 4. Review Challan
+                  Information: Ensure that the details of the violation, date,
+                  and fine amount are correct.
+                </p>
+              </div>
+            </div>
+            <div className="paying-e-challan-online">
+              <div className="h2-heading-pay-online">
+                <h2 className="pay-e-challan">Paying Your E-Challan-Online</h2>
+              </div>
+              <div className="paragarph-pay-online">
+                <p>
+                  Once you've checked your e-challan, the next step is to pay
+                  it: 1. Select the Challan to Pay: Choose the e-challan you
+                  wish to settle.2. Payment Gateway: You'll be redirected to a
+                  secure payment gateway. 3.Choose Payment Method: Opt for a
+                  convenient payment method - credit/debit card, net banking, or
+                  digital wallets. 4. Complete the Transaction: Follow the
+                  instructions to finalize your payment.5. Receive Confirmation:
+                  A confirmation with a transaction ID will be provided for your
+                  records.
+                </p>
+              </div>
+            </div>
+            <div className="common-question-e-challan">
+              <div className="h2-heading-e-challan-question">
+                <h2 className="e-challan-question">
+                  Common Question About E-Challans
+                </h2>
+              </div>
+              <div className="paragraph-e-challan-question">
+                <p>
+                  What if I don't pay the challan? Non-payment can lead to legal
+                  consequences, including additional fines. How secure is online
+                  challan payment? Payments are made through secure gateways,
+                  ensuring safety. Can I contest a challan I believe is
+                  incorrect? Yes, you can raise disputes by contacting the
+                  traffic authority's helpdesk with relevant proofs.
+                </p>
+              </div>
+            </div>
+            <div className="penalties-fines">
+              <div className="h2-heading-penalties-fines">
+                <h2
+                  className="penalties-and-fines
             "
-              >
-                Penalties and Fines
-              </h2>
+                >
+                  Penalties and Fines
+                </h2>
+              </div>
+              <div className="paragraph-penalties-and-fines">
+                <p>
+                  Common traffic violations include: Over speeding: Fines vary
+                  based on vehicle type. Driving without a license: A hefty fine
+                  or community service. Signal jumping: Can lead to fines and
+                  license seizure.
+                </p>
+              </div>
             </div>
-            <div className="paragraph-penalties-and-fines">
-              <p>
-                Common traffic violations include: Over speeding: Fines vary
-                based on vehicle type. Driving without a license: A hefty fine
-                or community service. Signal jumping: Can lead to fines and
-                license seizure.
-              </p>
+            <div className="advantage-e-challan-payment">
+              <div className="h2-heading-e-challan-payment">
+                <h2 className="advantage-challan-payment">
+                  Advantage of Timely E-Challan-Payment
+                </h2>
+              </div>
+              <div className="paragraph-advantage-e-challan">
+                <p>
+                  Prompt payment of e-challans helps avoid additional penalties
+                  and legal hassles. It also reflects responsible citizenship
+                  and adherence to traffic norms.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="advantage-e-challan-payment">
-            <div className="h2-heading-e-challan-payment">
-              <h2 className="advantage-challan-payment">
-                Advantage of Timely E-Challan-Payment
-              </h2>
-            </div>
-            <div className="paragraph-advantage-e-challan">
-              <p>
-                Prompt payment of e-challans helps avoid additional penalties
-                and legal hassles. It also reflects responsible citizenship and
-                adherence to traffic norms.
-              </p>
-            </div>
-          </div>
 
-          <div className="conclusion-text">
-            <div className="h2-heading-conclusion">
-              <h2 className="conclusion">Conclusion</h2>
+            <div className="conclusion-text">
+              <div className="h2-heading-conclusion">
+                <h2 className="conclusion">Conclusion</h2>
+              </div>
+              <div className="paragraph-conclusion">
+                <p style={{}}>
+                  E-challans have revolutionized the way traffic violations are
+                  managed. By using the online system to check and pay fines,
+                  citizens can effortlessly comply with traffic regulations,
+                  ensuring safer roads and a smoother driving experience.
+                  Remember, staying informed and prompt in addressing e-challans
+                  not only saves time but also contributes to a disciplined
+                  traffic environment.
+                </p>
+              </div>
             </div>
-            <div className="paragraph-conclusion">
-              <p style={{}}>
-                E-challans have revolutionized the way traffic violations are
-                managed. By using the online system to check and pay fines,
-                citizens can effortlessly comply with traffic regulations,
-                ensuring safer roads and a smoother driving experience.
-                Remember, staying informed and prompt in addressing e-challans
-                not only saves time but also contributes to a disciplined
-                traffic environment.
-              </p>
-            </div>
-          </div>
-        </>
-      )}
-      {/* {/ Read more/less toggle button /} */}
-      <button className="read-more-button" onClick={toggleReadMore} style={{}}>
-        {isExpanded ? "Read Less" : "Read More"}
-      </button>
+          </>
+        )}
+        {/* {/ Read more/less toggle button /} */}
+        <button
+          className="read-more-button"
+          onClick={toggleReadMore}
+          style={{}}
+        >
+          {isExpanded ? "Read Less" : "Read More"}
+        </button>
 
-      <div className="traffic-violations">
-        <h2 className="violations-and-penalties">
-          Latest Traffic Violations and Their Penalties
-        </h2>
-      </div>
-      <div className="paragraph-traffic-violations">
-        <p>
-          Staying informed regarding the latest traffic violations in India to
-          avoid mishaps on the road is highly crucial. Here are some crucial
-          violations and their penalties that you should be aware of:
-        </p>
-      </div>
+        <div className="traffic-violations">
+          <h2 className="violations-and-penalties">
+            Latest Traffic Violations and Their Penalties
+          </h2>
+        </div>
+        <div className="paragraph-traffic-violations">
+          <p>
+            Staying informed regarding the latest traffic violations in India to
+            avoid mishaps on the road is highly crucial. Here are some crucial
+            violations and their penalties that you should be aware of:
+          </p>
+        </div>
       </div>
 
       <div className="tablename 1">
@@ -406,7 +446,7 @@ const Home = () => {
       <button className="view-more-button" onClick={toggleReadMore1}>
         {isExpanded1 ? "View Less" : "View More"}
       </button>
-     
+
       <div>
         <Boxes />
       </div>
