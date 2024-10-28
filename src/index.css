@@ -835,7 +835,7 @@ ul.nav.nav-tabs {
   display: flex;
   justify-content: space-evenly;
   margin-left: 9rem;
-  margin-top: 18rem;
+  margin-top: 2rem;
   width: 80%;
 }
 li.nav-item-tab-2 {
@@ -877,7 +877,7 @@ a#tab-0 {
     display: flex;
     justify-content: space-evenly;
     margin-left: 2rem;
-    margin-top: -7rem;
+    margin-top: -1rem;
     width: 80%;
   }
   a#tab-1 {
@@ -1336,7 +1336,7 @@ margin-top: 0rem !important;  }
     font-family: " RobotoBold, sans-serif" !important;
     position: relative !important;
     top: -5rem !important;
-    right: 5rem !important;
+    right: 3rem !important;
   }
   .paragraph-pay-online-offline {
     font-size: 16px;
@@ -1702,7 +1702,7 @@ margin-top: 0rem !important;  }
   display: ruby  !important; ;
 }
 button.navbar-toggler {
-  position: fixed;
+  position: absolute;
 }
 img.navbar-logo-image {
   width: 100px !important;
@@ -1724,7 +1724,7 @@ img.navbar-logo-image {
   display: ruby  !important; ;
 }
 button.navbar-toggler {
-  position: fixed;
+  position: absolute;
 }
 img.navbar-logo-image {
   width: 150px !important;
@@ -2059,61 +2059,74 @@ img.navbar-logo-image {
     flex-direction: column !important;
     margin: auto !important;
     margin-top: 2rem !important;
-    width: 100% !important;
-    height: 806px !important;
+    width: 49% !important;
+    height: 750px !important;
     background: #e1e8ed !important;
     border-radius: 20px !important;
+    
   }
   .step-for-check-challan {
-    font-size: 30px !important;
+    font-size: 24px !important;
     line-height: 24px !important;
     font-family: "RobotoBold, sans-serif" !important;
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
     margin-right: 2rem !important;
+    padding-bottom: 3rem;
   }
   .paragraph-visit-app {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 13rem;
     margin-top: 3rem;
+    display: contents;
+
   }
   .click-challan {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 25rem;
     margin-top: 2rem;
+    display: contents;
+
   }
   .enter-vehicle-number {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 3rem;
     margin-top: 2rem;
+    display: contents;
+
   }
   .find-update-button {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 3rem;
     margin-top: 2rem;
+    display: contents;
+
   }
   .get-e-challan-status {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 4rem;
     margin-top: 2rem;
+    display: contents;
+
   }
   .first-box-image {
     /* display: contents; */
     margin-left: 1px;
+    display: contents;
   }
 
   .second-col-6 {
@@ -2121,21 +2134,22 @@ img.navbar-logo-image {
     flex-direction: column !important;
     margin: auto !important;
     margin-top: 2rem !important;
-    width: 100% !important;
-    height: 877px !important;
+    width: 49% !important;
+    height: auto !important;
     background: #e1e8ed !important;
     border-radius: 20px !important;
   }
   .parivahan-website {
-    font-size: 30px !important;
+    font-size: 24px !important;
     line-height: 24px !important;
     font-family: "RobotoBold, sans-serif" !important;
     margin-top: 3rem !important;
     position: relative;
         left: 2rem;
+        display: contents;
   }
   .visit-parivahan-website {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -2143,7 +2157,7 @@ img.navbar-logo-image {
     margin-top: 3rem;
   }
   .click-get-challan-details {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -2151,7 +2165,7 @@ img.navbar-logo-image {
     margin-top: 0rem;
   }
   .enter-details-captcha {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -2159,7 +2173,7 @@ img.navbar-logo-image {
     margin-top: 1rem;
   }
   .select-the-e-challan {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
@@ -2168,16 +2182,16 @@ img.navbar-logo-image {
     /* width: 51rem; */
   }
   .proceed-the-payment {
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding-right: 2rem;
     margin-top: 2rem;
   }
-  /* .studio-display-image {
+  .studio-display-image {
     display: contents;
-  } */
+  }
   .how-can-pay-challan {
     font-size: 26px !important;
     line-height: 36px !important;
@@ -2564,7 +2578,7 @@ img.navbar-logo-image {
     display: flex;
     justify-content: space-evenly;
     margin-left: 4rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
     width: 80%;
   }
 }
